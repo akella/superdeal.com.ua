@@ -1,4 +1,108 @@
 @import "base";
 .footer{
 	@include background-image(linear-gradient(#252525, #363636));
+	margin: 0 -11px;
+	position: relative;
+	padding: 50px 40px 40px 40px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 1.4;
+	.footer__wrap{
+		@extend %clr;
+	}
+	&:before,&:after{
+		content:'';
+		display: inline-block;
+		position: absolute;
+		top: -11px;
+		left: 0px;
+		@include sized-sprite($icons, footer_left);
+	}
+	&:after{
+		right: -1px;
+		left: auto;
+		@include sized-sprite($icons, footer_right);
+	}
+	.footer__col{
+		float: left;
+		width: 214px;
+		p{
+			margin-bottom: 18px;
+		}
+	}
+	.footer__left{
+		width: 458px;
+		float: left;
+		ul{
+			list-style: none;
+			li{
+				margin-bottom: 4px;
+			}
+			a{
+				color: #ccc;
+				text-decoration: none;
+				border-bottom: 1px solid #4e4e4f;
+				&:hover{
+					color: #fff;
+				}
+			}
+		}
+		p{
+			position: relative;
+			span{
+				position: absolute;
+				left: -1.1em;
+				top: 0px;
+			}
+		}
+	}
+	.footer__right{
+		
+	}
+	.footer__socials{
+		position: absolute;
+		top: 50px;
+		right: 20px;
+		ul{
+			list-style: none;
+		}
+		li{
+			font-size: 12px;
+			line-height: 1px;
+			margin-bottom: 11px;
+		}
+		a{
+			display: inline-block;
+			vertical-align: top;
+			@extend %hide-text;
+			&.social__fb{
+				@include sized-sprite($icons, f-fb);
+				&:hover{@include sized-sprite($icons, f-fb_hover);}
+				&:active{@include sized-sprite($icons, f-fb_active);}
+			}
+			&.social__vk{
+				@include sized-sprite($icons, f-vk);
+				&:hover{@include sized-sprite($icons, f-vk_hover);}
+				&:active{@include sized-sprite($icons, f-vk_active);}
+			}
+			&.social__gp{
+				@include sized-sprite($icons, f-gp);
+				&:hover{@include sized-sprite($icons, f-gp_hover);}
+				&:active{@include sized-sprite($icons, f-gp_active);}
+			}
+			&.social__rss{
+				@include sized-sprite($icons, f-rss);
+				&:hover{@include sized-sprite($icons, f-rss_hover);}
+				&:active{@include sized-sprite($icons, f-rss_active);}
+			}
+		}
+	}
+	.footer__text{
+		float: left;
+		width: 330px;
+		color: #999;
+		p{
+			margin-bottom: 1.1em;
+		}
+	}
 }
