@@ -15,3 +15,6 @@
 		width: 70%;
 	}
 }
+.page{
+	@extend %site;
+}

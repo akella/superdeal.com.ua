@@ -1,5 +1,12 @@
-@import "common";
-@import "layouts";
-@import "main";
 
-@import "ie";
+@import "common"; // common styles for body, resets
+@import "header"; // top part of the page
+@import "footer"; // guess what is here! =)
+@import "layouts"; // reoccuring layouts of content area
+
+
+@import "main"; // mainpage styles
+
+//coupon page
+
+@import "ie"; // ie hacks

@@ -1,0 +1,4 @@
+@import "base";
+.footer{
+	@include background-image(linear-gradient(#252525, #363636));
+}
