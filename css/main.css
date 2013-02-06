@@ -9,14 +9,16 @@
 .benefits li { display: inline-block; }
 .benefits a { text-decoration: none; color: #f4f7f0; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); font-weight: bold; display: inline-block; margin-right: 72px; text-align: center; }
 .benefits a span { display: block; }
-.benefits a b { opacity: 0; -moz-transition: all 5s linear; -o-transition: all 5s linear; -webkit-transition: all 5s linear; -ms-transition: all 5s linear; transition: all 5s linear; background-color: red; }
-.benefits a i { position: relative; display: inline-block; background: url('../img/icons-sd6757fee51.png') 0 -611px no-repeat; width: 63px; height: 80px; }
+.benefits a b { position: absolute; top: 0; left: 0; opacity: 0; z-index: 1; -moz-transition: opacity 0.15s linear; -o-transition: opacity 0.15s linear; -webkit-transition: opacity 0.15s linear; -ms-transition: opacity 0.15s linear; transition: opacity 0.15s linear; }
+.benefits a i { position: relative; display: inline-block; }
+.benefits a i.benefits__iconsup { background: url('../img/icons-sd6757fee51.png') 0 -611px no-repeat; width: 63px; height: 80px; }
 .benefits a i.benefits__iconeco { background: url('../img/icons-sd6757fee51.png') 0 -701px no-repeat; width: 66px; height: 80px; }
 .benefits a i.benefits__iconpar { background: url('../img/icons-sd6757fee51.png') 0 -251px no-repeat; width: 80px; height: 80px; }
 .benefits a i.benefits__iconpre { background: url('../img/icons-sd6757fee51.png') 0 -881px no-repeat; width: 72px; height: 80px; }
 .benefits a i.benefits__iconact { background: url('../img/icons-sd6757fee51.png') 0 -791px no-repeat; width: 72px; height: 80px; }
-.benefits a:hover { -moz-transition: all 5s linear; -o-transition: all 5s linear; -webkit-transition: all 5s linear; -ms-transition: all 5s linear; transition: all 5s linear; }
-.benefits a:hover i b { position: absolute; top: 0; left: 0; opacity: 1; background: url('../img/icons-sd6757fee51.png') 0 -161px no-repeat; width: 63px; height: 80px; }
+.benefits a:hover { -moz-transition: opacity 0.15s linear; -o-transition: opacity 0.15s linear; -webkit-transition: opacity 0.15s linear; -ms-transition: opacity 0.15s linear; transition: opacity 0.15s linear; }
+.benefits a:hover i b { opacity: 1; }
+.benefits a:hover i.benefits__iconsup b { background: url('../img/icons-sd6757fee51.png') 0 -161px no-repeat; width: 63px; height: 80px; }
 .benefits a:hover i.benefits__iconeco b { background: url('../img/icons-sd6757fee51.png') 0 -431px no-repeat; width: 66px; height: 80px; }
 .benefits a:hover i.benefits__iconpar b { background: url('../img/icons-sd6757fee51.png') 0 -71px no-repeat; width: 80px; height: 80px; }
 .benefits a:hover i.benefits__iconpre b { background: url('../img/icons-sd6757fee51.png') 0 -341px no-repeat; width: 72px; height: 80px; }

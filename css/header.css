@@ -37,7 +37,7 @@
 .profile .profile__user .profile__usericon { display: inline-block; background: url('../img/icons-sd6757fee51.png') 0 -1579px no-repeat; width: 14px; height: 15px; margin-right: 5px; vertical-align: middle; position: relative; top: -1px; }
 .profile .profile__user .profile__username i { display: inline-block; background: url('../img/icons-sd6757fee51.png') 0 -1712px no-repeat; width: 8px; height: 8px; margin-left: 3px; vertical-align: middle; }
 .profile .profile__user a { color: #ebebeb; text-decoration: none; }
-.profile .profile__drop { position: absolute; right: 13px; top: 35px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); z-index: 100; display: block; text-align: left; width: 160px; border-radius: 8px; }
+.profile .profile__drop { position: absolute; right: 13px; top: 35px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); z-index: 100; display: block; text-align: left; width: 160px; border-radius: 6px; }
 .profile .profile__drop:before { content: ''; position: absolute; left: 50%; top: -10px; margin-left: -10px; background: url('../img/icons-sd6757fee51.png') 0 -1692px no-repeat; width: 21px; height: 10px; }
 .profile .profile__drop ul { list-style: none; padding: 5px 0; }
 .profile .profile__drop li, .profile .profile__drop a { line-height: 1; display: block; }
@@ -53,7 +53,7 @@
 .location .location__content { padding: 25px 0 18px 0; }
 .location ul { list-style: none; float: left; margin-left: 34px; display: inline; padding-top: 6px; }
 .location li { font-weight: bold; }
-.location li a { text-decoration: none; display: inline-block; padding: 4px 12px; color: #fff; border-radius: 5px; }
+.location li a { text-decoration: none; display: inline-block; padding: 4px 12px; color: #fff; border-radius: 6px; }
 .location li a:hover { background: #acc479; color: #000; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -ms-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 .location li a:hover b { border: 10px solid white; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 .location li a.location__current { position: relative; }
@@ -66,6 +66,6 @@
 .header { height: 50px; margin: 15px 0; position: relative; }
 .header .header__logo { float: left; }
 .header .header__logo a { background: url('../img/icons-sd6757fee51.png') 0 0 no-repeat; width: 271px; height: 61px; position: absolute; top: -1px; left: -23px; }
-.header .header__banner { width: 676px; position: absolute; right: 0; top: 0; border-radius: 10px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); height: 48px; }
+.header .header__banner { width: 676px; position: absolute; right: 0; top: 0; border-radius: 6px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); height: 48px; }
 
-.invite-friend { text-decoration: none; display: block; background: rgba(255, 255, 255, 0.5); border-radius: 10px; height: 46px; line-height: 48px; text-align: center; border: 1px solid #fff; font-size: 16px; color: #2873aa; font-weight: bold; }
+.invite-friend { text-decoration: none; display: block; background: rgba(255, 255, 255, 0.5); border-radius: 6px; height: 46px; line-height: 48px; text-align: center; border: 1px solid #fff; font-size: 16px; color: #2873aa; font-weight: bold; }

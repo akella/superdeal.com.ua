@@ -45,30 +45,29 @@
 			display: block;
 		}
 		b{
+			position: absolute;
+			top: 0;
+			left: 0;
 			opacity: 0;
-			@include transition(all, 5s, linear);
-			background-color: red;
+			z-index: 1;
+			@include transition(opacity, .15s, linear);
 		}
 		i{
 			position: relative;
 			display: inline-block;
-			@include sized-sprite($icons, ben_sup);
+			&.benefits__iconsup{@include sized-sprite($icons, ben_sup);}
 			&.benefits__iconeco{@include sized-sprite($icons, ben_eco);}
 			&.benefits__iconpar{@include sized-sprite($icons, ben_par);}
 			&.benefits__iconpre{@include sized-sprite($icons, ben_pre);}
 			&.benefits__iconact{@include sized-sprite($icons, ben_act);}
 		}
-
 		&:hover{
-			@include transition(all, 5s, linear);
+			@include transition(opacity, .15s, linear);
 			i{
 				b{
-					position: absolute;
-					top: 0;
-					left: 0;
 					opacity: 1;
-					@include sized-sprite($icons, ben_suph);
 				}
+				&.benefits__iconsup b{@include sized-sprite($icons, ben_suph);}
 				&.benefits__iconeco b{@include sized-sprite($icons, ben_ecoh);}
 				&.benefits__iconpar b{@include sized-sprite($icons, ben_parh);}
 				&.benefits__iconpre b{@include sized-sprite($icons, ben_preh);}

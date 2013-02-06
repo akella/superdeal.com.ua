@@ -57,7 +57,7 @@ a:hover { text-decoration: none; }
 .profile .profile__user .profile__usericon { display: inline-block; background: url('../img/icons-sd6757fee51.png') 0 -1579px no-repeat; width: 14px; height: 15px; margin-right: 5px; vertical-align: middle; position: relative; top: -1px; }
 .profile .profile__user .profile__username i { display: inline-block; background: url('../img/icons-sd6757fee51.png') 0 -1712px no-repeat; width: 8px; height: 8px; margin-left: 3px; vertical-align: middle; }
 .profile .profile__user a { color: #ebebeb; text-decoration: none; }
-.profile .profile__drop { position: absolute; right: 13px; top: 35px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); z-index: 100; display: block; text-align: left; width: 160px; border-radius: 8px; }
+.profile .profile__drop { position: absolute; right: 13px; top: 35px; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); z-index: 100; display: block; text-align: left; width: 160px; border-radius: 6px; }
 .profile .profile__drop:before { content: ''; position: absolute; left: 50%; top: -10px; margin-left: -10px; background: url('../img/icons-sd6757fee51.png') 0 -1692px no-repeat; width: 21px; height: 10px; }
 .profile .profile__drop ul { list-style: none; padding: 5px 0; }
 .profile .profile__drop li, .profile .profile__drop a { line-height: 1; display: block; }
@@ -73,7 +73,7 @@ a:hover { text-decoration: none; }
 .location .location__content { padding: 25px 0 18px 0; }
 .location ul { list-style: none; float: left; margin-left: 34px; display: inline; padding-top: 6px; }
 .location li { font-weight: bold; }
-.location li a { text-decoration: none; display: inline-block; padding: 4px 12px; color: #fff; border-radius: 5px; }
+.location li a { text-decoration: none; display: inline-block; padding: 4px 12px; color: #fff; border-radius: 6px; }
 .location li a:hover { background: #acc479; color: #000; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -ms-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 .location li a:hover b { border: 10px solid white; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 .location li a.location__current { position: relative; }
@@ -86,9 +86,9 @@ a:hover { text-decoration: none; }
 .header { height: 50px; margin: 15px 0; position: relative; }
 .header .header__logo { float: left; }
 .header .header__logo a { background: url('../img/icons-sd6757fee51.png') 0 0 no-repeat; width: 271px; height: 61px; position: absolute; top: -1px; left: -23px; }
-.header .header__banner { width: 676px; position: absolute; right: 0; top: 0; border-radius: 10px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); height: 48px; }
+.header .header__banner { width: 676px; position: absolute; right: 0; top: 0; border-radius: 6px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); height: 48px; }
 
-.invite-friend { text-decoration: none; display: block; background: rgba(255, 255, 255, 0.5); border-radius: 10px; height: 46px; line-height: 48px; text-align: center; border: 1px solid #fff; font-size: 16px; color: #2873aa; font-weight: bold; }
+.invite-friend { text-decoration: none; display: block; background: rgba(255, 255, 255, 0.5); border-radius: 6px; height: 46px; line-height: 48px; text-align: center; border: 1px solid #fff; font-size: 16px; color: #2873aa; font-weight: bold; }
 
 .topper .socials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
@@ -151,14 +151,16 @@ a:hover { text-decoration: none; }
 .benefits li { display: inline-block; }
 .benefits a { text-decoration: none; color: #f4f7f0; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); font-weight: bold; display: inline-block; margin-right: 72px; text-align: center; }
 .benefits a span { display: block; }
-.benefits a b { opacity: 0; -moz-transition: all 5s linear; -o-transition: all 5s linear; -webkit-transition: all 5s linear; -ms-transition: all 5s linear; transition: all 5s linear; background-color: red; }
-.benefits a i { position: relative; display: inline-block; background: url('../img/icons-sd6757fee51.png') 0 -611px no-repeat; width: 63px; height: 80px; }
+.benefits a b { position: absolute; top: 0; left: 0; opacity: 0; z-index: 1; -moz-transition: opacity 0.15s linear; -o-transition: opacity 0.15s linear; -webkit-transition: opacity 0.15s linear; -ms-transition: opacity 0.15s linear; transition: opacity 0.15s linear; }
+.benefits a i { position: relative; display: inline-block; }
+.benefits a i.benefits__iconsup { background: url('../img/icons-sd6757fee51.png') 0 -611px no-repeat; width: 63px; height: 80px; }
 .benefits a i.benefits__iconeco { background: url('../img/icons-sd6757fee51.png') 0 -701px no-repeat; width: 66px; height: 80px; }
 .benefits a i.benefits__iconpar { background: url('../img/icons-sd6757fee51.png') 0 -251px no-repeat; width: 80px; height: 80px; }
 .benefits a i.benefits__iconpre { background: url('../img/icons-sd6757fee51.png') 0 -881px no-repeat; width: 72px; height: 80px; }
 .benefits a i.benefits__iconact { background: url('../img/icons-sd6757fee51.png') 0 -791px no-repeat; width: 72px; height: 80px; }
-.benefits a:hover { -moz-transition: all 5s linear; -o-transition: all 5s linear; -webkit-transition: all 5s linear; -ms-transition: all 5s linear; transition: all 5s linear; }
-.benefits a:hover i b { position: absolute; top: 0; left: 0; opacity: 1; background: url('../img/icons-sd6757fee51.png') 0 -161px no-repeat; width: 63px; height: 80px; }
+.benefits a:hover { -moz-transition: opacity 0.15s linear; -o-transition: opacity 0.15s linear; -webkit-transition: opacity 0.15s linear; -ms-transition: opacity 0.15s linear; transition: opacity 0.15s linear; }
+.benefits a:hover i b { opacity: 1; }
+.benefits a:hover i.benefits__iconsup b { background: url('../img/icons-sd6757fee51.png') 0 -161px no-repeat; width: 63px; height: 80px; }
 .benefits a:hover i.benefits__iconeco b { background: url('../img/icons-sd6757fee51.png') 0 -431px no-repeat; width: 66px; height: 80px; }
 .benefits a:hover i.benefits__iconpar b { background: url('../img/icons-sd6757fee51.png') 0 -71px no-repeat; width: 80px; height: 80px; }
 .benefits a:hover i.benefits__iconpre b { background: url('../img/icons-sd6757fee51.png') 0 -341px no-repeat; width: 72px; height: 80px; }
