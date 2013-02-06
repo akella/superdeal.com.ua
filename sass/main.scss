@@ -1,1 +1,90 @@
 @import "base";
+
+
+
+
+
+
+
+
+
+.benefits{
+	position: relative;
+	box-shadow:0 2px 3px  rgba(#000,.2);
+	margin: 0 -30px 20px -30px;
+	padding: 15px 0 20px 53px;
+	@include background-image(linear-gradient(#9fc749, #71991b));
+	text-align: center;
+	&:before,&:after{
+		content:'';
+		position: absolute;
+		bottom: -11px;
+		left: 0;
+		@include sized-sprite($icons, benefits_left);
+	}
+	&:after{
+		left: auto;
+		right: 0;
+		@include sized-sprite($icons, benefits_right);
+	}
+	ul{
+		list-style: none;
+	}
+	li{
+		display: inline-block;
+	}
+	a{
+		text-decoration: none;
+		color: #f4f7f0;
+		text-shadow: 0 1px 1px rgba(#000,0.4);
+		font-weight: bold;
+		display: inline-block;
+		margin-right: 72px;
+		text-align: center;
+		span{
+			display: block;
+		}
+		b{
+			opacity: 0;
+			@include transition(all, 5s, linear);
+			background-color: red;
+		}
+		i{
+			position: relative;
+			display: inline-block;
+			@include sized-sprite($icons, ben_sup);
+			&.benefits__iconeco{@include sized-sprite($icons, ben_eco);}
+			&.benefits__iconpar{@include sized-sprite($icons, ben_par);}
+			&.benefits__iconpre{@include sized-sprite($icons, ben_pre);}
+			&.benefits__iconact{@include sized-sprite($icons, ben_act);}
+		}
+
+		&:hover{
+			@include transition(all, 5s, linear);
+			i{
+				b{
+					position: absolute;
+					top: 0;
+					left: 0;
+					opacity: 1;
+					@include sized-sprite($icons, ben_suph);
+				}
+				&.benefits__iconeco b{@include sized-sprite($icons, ben_ecoh);}
+				&.benefits__iconpar b{@include sized-sprite($icons, ben_parh);}
+				&.benefits__iconpre b{@include sized-sprite($icons, ben_preh);}
+				&.benefits__iconact b{@include sized-sprite($icons, ben_acth);}
+			}
+		}
+	}
+}
+
+.megasocials{
+	@extend %clr;
+	.megasocials__left,.megasocials__right{
+		float: left;
+		width: 440px;
+	}
+	.megasocials__right{
+		float: right;
+	}
+}
