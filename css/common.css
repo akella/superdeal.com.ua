@@ -8,4 +8,4 @@ a { color: #00919e; }
 a:hover { text-decoration: none; }
 
 .content { position: relative; background: #fff; box-shadow: -4px 0 4px -4px rgba(0, 0, 0, 0.3), 4px 0 4px -4px rgba(0, 0, 0, 0.3); padding: 14px 18px 30px 18px; }
-.content:before { content: ''; background: url('../img/icons-s910e25e16b.png') 0 -755px no-repeat; width: 971px; height: 6px; position: absolute; top: -1px; left: -15px; display: inline-block; }
+.content:before { content: ''; background: url('../img/icons-sd6757fee51.png') 0 -1655px no-repeat; width: 971px; height: 6px; position: absolute; top: -1px; left: -15px; display: inline-block; }
