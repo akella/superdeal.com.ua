@@ -80,7 +80,8 @@ a:hover { text-decoration: none; }
 .location li a.location__current i { position: absolute; left: -10px; top: 3px; display: inline-block; background: url('../img/icons-sb12e1001c2.png') 0 -2132px no-repeat; width: 16px; height: 13px; }
 .location li a.location__current b { display: none; }
 .location li a.location__current:hover { background: transparent; color: #fff; }
-.location li a b { position: absolute; left: 609px; top: 77px; width: 10px; height: 10px; background: red; border-radius: 30px; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+.location li a b { position: absolute; left: 609px; top: 77px; width: 7px; height: 7px; border-radius: 30px; border: 10px solid rgba(255, 255, 255, 0); }
+.location li a b span { position: absolute; top: 0px; left: 0px; background: #88a0b1; width: 7px; height: 7px; border-radius: 30px; }
 .location .location__map { float: right; margin-right: 73px; }
 
 .header { height: 50px; margin: 15px 0; position: relative; }

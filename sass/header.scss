@@ -283,12 +283,21 @@
 				position: absolute;
 				left: 300px + 100px + 209px;
 				top: 50px + 27px;
-				width: 10px;
-				height: 10px;
-				background: red;
+				width: 7px;
+				height: 7px;
 				border-radius: 30px;
-				@include transition(all, .3s, ease-in-out);
+				border: 10px solid rgba(#fff,0);
+				//@include transition(all, .3s, ease-in-out);
 				//@include boxsizing();
+				span{
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					background: #88a0b1;
+					width: 7px;
+					height: 7px;
+					border-radius: 30px;
+				}
 			}
 		}
 	}
