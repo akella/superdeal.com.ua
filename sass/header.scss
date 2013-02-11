@@ -352,12 +352,12 @@
 	li{
 		position: relative;
 		float: left;
-		&.nav__all{width: 160px;}
-		&.nav__bea{width: 148px;}
-		&.nav__tur{width: 143px;}
-		&.nav__foo{width: 108px;}
-		&.nav__goo{width: 174px;}
-		&.nav__new{width: 168px;}
+		&.nav__all{width: 160px;i{@include sized-sprite($icons, nav__all);top:-2px;}}
+		&.nav__bea{width: 148px;i{@include sized-sprite($icons, nav__bea);top:-5px;}}
+		&.nav__tur{width: 143px;i{@include sized-sprite($icons, nav__tur);top:-3px;}}
+		&.nav__foo{width: 108px;i{@include sized-sprite($icons, nav__foo);top:-3px;margin:0 9px 0 6px}}
+		&.nav__goo{width: 174px - 20px;i{@include sized-sprite($icons, nav__goo);top:-3px;}}
+		&.nav__new{width: 168px + 20px;i{@include sized-sprite($icons, nav__new);top:-4px;}}
 		&:before{
 			content:' ';
 			position: absolute;
@@ -369,7 +369,22 @@
 			display: none;
 		}
 		&:last-child{
-			
+			a{
+				border-top-right-radius:6px;
+				border-bottom-right-radius:6px;
+				&:hover:after{
+					display: none;
+				}
+			}
+		}
+		&:first-child{
+			a{
+				border-top-left-radius:6px;
+				border-bottom-left-radius:6px;
+				&:hover:before{
+					display: none;
+				}
+			}
 		}
 	}
 
@@ -380,9 +395,9 @@
 		color: #111;
 		display: block;
 		padding-left: 8px;
-		height: 49px;
-		line-height: 49px;
-
+		height: 48px;
+		line-height: 48px;
+		position: relative;
 		span{
 			font-size: 12px;
 			color: #111;
@@ -396,10 +411,34 @@
 			margin-left: 3px;
 			box-shadow:inset 0 1px 0 rgba(#000,0.2);
 		}
+		i{
+			opacity: .5;
+			display: inline-block;
+			vertical-align: middle;
+			position: relative;
+			margin-right: 6px;
+			@include transition(all, .1s, ease-in-out);
+		}
 		&:hover{
 			@include background-image(linear-gradient(#fefefe, #fcfefc));
+			&:before,&:after{
+				border-left: 1px solid #c8cfd3;
+				width: 1px;
+				height: 100%;
+				position: absolute;
+				left: -1px;
+				content:'';
+			}
+			&:after{
+				left: auto;
+				right: -1px;
+			}
+			i{
+				opacity: 1;
+			}
 		}
 		&:active{
+			box-shadow:inset 0 1px 0 rgba(#fff,0.9);
 			@include background-image(linear-gradient(#e2efe2, #f7fbf7));
 		}
 	}
