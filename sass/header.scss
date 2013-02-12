@@ -71,7 +71,7 @@
 		}
 
 	}
-	.socials{
+	.hsocials{
 		display: inline-block;
 		line-height: 1;
 		vertical-align: top;
@@ -83,19 +83,19 @@
 			@extend %hide-text;
 			margin-right: 5px;
 			vertical-align: top;
-			&.socials__fb{
+			&.hsocials__fb{
 				@include sized-sprite($icons, fb);
 				&:hover{
 					@include sized-sprite($icons, fb_hover);
 				}
 			}
-			&.socials__vk{
+			&.hsocials__vk{
 				@include sized-sprite($icons, vk);
 				&:hover{
 					@include sized-sprite($icons, vk_hover);
 				}
 			}
-			&.socials__gp{
+			&.hsocials__gp{
 				@include sized-sprite($icons, gp);
 				&:hover{
 					@include sized-sprite($icons, gp_hover);

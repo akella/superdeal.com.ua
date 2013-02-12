@@ -61,8 +61,8 @@
 						<li><a href="#">Контакты</a></li>
 					</ul>
 				</nav>
-				<div class="socials">
-					<a class="socials__fb" href="#">Facebook</a><a class="socials__vk" href="#">Vkontakte</a><a class="socials__gp" href="#">Google plus</a>
+				<div class="hsocials">
+					<a class="hsocials__fb" href="#">Facebook</a><a class="hsocials__vk" href="#">Vkontakte</a><a class="hsocials__gp" href="#">Google plus</a>
 				</div>
 				<a href="#" class="topper__help"><i></i>Помощь</a>
 				<!-- BEGI PROFILE -->
@@ -141,7 +141,7 @@
 					<div class="pics__next"></div>
 					<div class="pics__prev"></div>
 					<div class="pics__wrap">
-						<img src="http://placedog.com/900/332" alt="">
+						<div style="background-image:url(http://placedog.com/900/332);width:900px;height:332px;"></div>
 					</div>
 				</div>
 				<a href="#" class="offer__link">Посмотреть</a>
@@ -396,6 +396,70 @@
 	</div>
 	<!-- END page-->
 
+	<div class="overlay"></div>
+	<!-- BEGIN  popup-->
+	<div class="popup">
+		<div class="popup__close"></div>
+		
+		<h2>Добро пожаловать на SuperDeal :-)</h2>
+		<!-- BEGIN  popup-->
+		<div class="popup__wrapcols">
+			
+		<!-- BEGIN  popup__left-->
+		<div class="popup__left">
+			<form action="/" class="form">
+				<h3 class="h3_login">Вход</h3>
+				<div class="form__row form__row_error">
+					<input type="text" name="" placeholder="E-mail" value="wrong@email" id="">
+						<div class="form__error">Такой пользователь не существует :-(</div>
+				</div>
+				<div class="form__row">
+					<input type="text" name="" placeholder="Пароль" id="">
+				</div>
+				<div class="form__text"><a href="#">Напомнить пароль!</a></div>
+				<a href="#" class="button">Войти</a>
+			</form>
+		</div>
+		<!-- END popup__left-->
+		
+		<!-- BEGIN  popup__right-->
+		<div class="popup__right">
+			<form action="/" class="form">
+				<h3 class="h3_reg">Регистрация</h3>
+				<div class="form__row">
+					<input type="text" name="" placeholder="E-mail" id="">
+				</div>
+				<div class="form__row">
+					<div class="select">
+						<select name="" id=""><option value="">Киев</option></select>
+						<input type="text" class="select__value" placeholder="Киев"><i></i>
+					</div>
+				</div>
+				<div class="form__text"><label><input type="checkbox"> Я согласен с <a href="#">условиями использования сайта</a></label></div>
+				<a href="#" class="button">Зарегистрироваться</a>
+			</form>
+		</div>
+		<!-- END popup__right-->
+		</div>
+		<!-- END popup__wrapcol-->
+		
+		<div class="socials">
+			<dl>
+			<dt>Войти с помощью:</dt>
+			<dd>
+				<ul>
+					<li><a href="#" class="socials__fb"></a></li>
+					<li><a href="#" class="socials__gp"></a></li>
+					<li><a href="#" class="socials__tw"></a></li>
+					<li><a href="#" class="socials__ya"></a></li>
+				</ul>
+			</dd>
+			</dl>
+		</div>
+		
+
+	</div>
+	<!-- END popup-->
 
 
 </body>

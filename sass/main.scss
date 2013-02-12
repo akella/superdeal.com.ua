@@ -55,6 +55,7 @@
 		padding: 2px 8px;
 		font-size: 13px;
 		color: #000;
+		z-index: 30;
 		.bought__icon{
 			display: inline-block;
 			vertical-align: middle;
@@ -72,6 +73,9 @@
 			width: 440px;
 			height: 270px;
 			overflow: hidden;
+			div{
+				border-radius: 6px;
+			}
 		}
 	}
 	.pics__next{
@@ -162,7 +166,7 @@
 		font-weight: bold;
 		line-height: 1.4;
 		color: #333;
-		padding: 16px 53px 0 18px;
+		padding: 16px 59px 0 18px;
 		min-height: 95px - 14px;
 		border-top-right-radius:6px;
 		border-top-left-radius:6px;
