@@ -1,5 +1,45 @@
 .lteie8{
 	body{
-		background:red;
+// 		background:red;
 	}
+	.location li a b span{display: none;}
+	.location li a:hover b span{display: block;border-color:#88a0b1;}
+
+	.topper__other {
+		.hsocials *,.topper__nav *,.topper__help,.hsocials,.topper__nav,
+		.profile,.profile__meta,.profile__user,
+		.profile,.profile__meta *,.profile__user *{
+			display: inline !important;
+		}
+		
+	}
+
+	//fallbacks
+	.bought__icon{
+		vertical-align: text !important;
+		position: static  !important; 
+	}
+	.offer_big{
+		.price{
+			background: #FFF;
+		}
+		.offer__title{
+			background: #fff;
+		}
+	}
+	del{
+		text-decoration: line-through !important;
+	}
+	.more{
+		margin-top: 18px;
+	}
+	.offer__discount span{
+		top: -27px;
+		left: 4px;
+		text-shadow:0 0 2px #fff;
+		opacity: .9;
+		filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; /* IE8 */
+	}
+
 }

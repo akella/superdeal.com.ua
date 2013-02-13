@@ -1,5 +1,6 @@
 @import "base";
 .footer{
+	background-color: #363636;
 	@include background-image(linear-gradient(#252525, #363636));
 	margin: 0 -11px;
 	position: relative;

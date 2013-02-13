@@ -1,1 +1,9 @@
-.lteie8 body { background: red; }
+.lteie8 .location li a b span { display: none; }
+.lteie8 .location li a:hover b span { display: block; border-color: #88a0b1; }
+.lteie8 .topper__other .hsocials *, .lteie8 .topper__other .topper__nav *, .lteie8 .topper__other .topper__help, .lteie8 .topper__other .hsocials, .lteie8 .topper__other .topper__nav, .lteie8 .topper__other .profile, .lteie8 .topper__other .profile__meta, .lteie8 .topper__other .profile__user, .lteie8 .topper__other .profile, .lteie8 .topper__other .profile__meta *, .lteie8 .topper__other .profile__user * { display: inline !important; }
+.lteie8 .bought__icon { vertical-align: text !important; position: static  !important; }
+.lteie8 .offer_big .price { background: #FFF; }
+.lteie8 .offer_big .offer__title { background: #fff; }
+.lteie8 del { text-decoration: line-through !important; }
+.lteie8 .more { margin-top: 18px; }
+.lteie8 .offer__discount span { top: -27px; left: 4px; text-shadow: 0 0 2px #fff; opacity: .9; filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE6,IE7 */ -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; /* IE8 */ }

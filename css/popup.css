@@ -1,6 +1,6 @@
-.overlay { position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.3); z-index: 1000; }
+.overlay { position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.3); z-index: 1000; display: none; }
 
-.popup { position: fixed; width: 640px; left: 50%; top: 100px; padding: 30px; margin-left: -350px; background: #fff; box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); z-index: 1001; border-radius: 6px; }
+.popup { display: none; position: fixed; width: 640px; left: 50%; top: 100px; padding: 30px; margin-left: -350px; background: #fff; box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); z-index: 1001; border-radius: 6px; }
 .popup .popup__wrapcols { overflow: hidden; border-top: 1px dotted #b5d0e2; border-bottom: 1px dotted #b5d0e2; padding: 15px 4px 25px 4px; position: relative; margin: 0 -4px; }
 .popup .popup__close { position: absolute; right: 15px; top: 15px; cursor: pointer; background: url('../img/icons-sa093b2813f.png') 0 -2962px no-repeat; width: 14px; height: 14px; }
 .popup h2 { color: #0d6fb0; font-size: 24px; font-weight: bold; margin-bottom: 22px; line-height: 1; }
