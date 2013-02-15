@@ -213,7 +213,7 @@ a:hover { text-decoration: none; }
 .form .h3_reg:after { content: ''; display: inline-block; background: url('../img/icons-sa093b2813f.png') 0 -1516px no-repeat; width: 41px; height: 19px; margin-left: 10px; position: relative; top: 2px; }
 .form .h3_login:after { content: ''; display: inline-block; background: url('../img/icons-sa093b2813f.png') 0 -2673px no-repeat; width: 12px; height: 18px; margin-left: 10px; position: relative; top: 1px; }
 .form .form__row { margin-bottom: 26px; position: relative; }
-.form .form__row input { width: 280px; padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; }
+.form .form__row input { width: 270px; padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; }
 .form .form__row.form__row_error input { background: #fff2f2; border-color: #ff7f7f; box-shadow: none; }
 .form .form__row.form__row_error .form__error { color: #f00; font-size: 12px; position: absolute; bottom: -19px; left: 0; }
 .form .form__text { margin-top: -10px; font-size: 12px; margin-bottom: 23px; }
