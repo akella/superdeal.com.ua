@@ -267,6 +267,22 @@
 			}
 		}
 	}
+	&.offer_product{
+		width: 286px;
+		height: 430px;
+		.price{
+			padding-top:0;
+			top: auto;
+			height: auto;
+			bottom: 10px;
+			del{
+				position: absolute;
+				top: -13px;
+				left: 17px;
+				font-size: 12px;
+			}
+		}
+	}
 }
 
 .more{
