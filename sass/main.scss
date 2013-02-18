@@ -7,14 +7,18 @@
 	@extend %clr;
 	margin-right: -18px;
 	position: relative;
+	.offer{
+		float: left;
+		margin: 0 18px 18px 0;
+	}
+	.offers__title{
+		@extend %h2;
+	}
 }
 //======offers
 .offer{
 	width: 442px - 2px;
 	height: 403px;
-
-	float: left;
-	margin: 0 18px 18px 0;
 	border: 1px solid #c2c8c9;
 	border-radius: 6px;
 	box-shadow:0 2px 4px rgba(#000,0.1);
@@ -23,30 +27,7 @@
 		border-color: #87b8da;
 	}
 	.offer__discount{
-		position: absolute;
-		top: -4px;
-		right: -5px;
-		@include sized-sprite($icons, discount);
-		color: #000;
-		font-size: 1px;
-		z-index: 50;
-		span{
-			display: block;
-// 			border: 1px solid green;
-			height: 35px;
-			line-height: 35px;
-			width: 130px;
-			color: #fff;
-			text-align: center;
-			@include rotate(45);
-			@include transform-origin(0,0);
-			position: absolute;
-			left: 27px;
-			top: -27px;
-			font-size: 27px;
-// 			font-weight: bold;
-			padding-top: 2px;
-		}
+		@extend %discount;
 	}
 	.bought{
 		position: absolute;

@@ -1,5 +1,5 @@
 
-@import "common"; // common styles for body, resets
+@import "common"; // common styles for body, resets, and recurring lego blocks
 @import "header"; // top part of the page
 @import "footer"; // guess what is here! =)
 @import "layouts"; // reoccuring layouts of content area
@@ -9,6 +9,7 @@
 
 @import "main"; // mainpage styles
 
-//coupon page
+@import "deal"; // deal page
+
 
 @import "ie"; // ie hacks

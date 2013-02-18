@@ -102,6 +102,36 @@ a{
 		@include background-image(linear-gradient(#ffd300, #fff300));
 	}
 }
+%h2{
+	font-size: 21px;
+	font-weight: bold;
+	margin: 10px 0 15px 0;
+	color: #000;
+}
+%discount{
+	position: absolute;
+	top: -4px;
+	right: -5px;
+	@include sized-sprite($icons, discount);
+	color: #000;
+	font-size: 1px;
+	z-index: 50;
+	span{
+		display: block;
+		height: 35px;
+		line-height: 35px;
+		width: 130px;
+		color: #fff;
+		text-align: center;
+		@include rotate(45);
+		@include transform-origin(0,0);
+		position: absolute;
+		left: 27px;
+		top: -27px;
+		font-size: 27px;
+		padding-top: 2px;
+	}
+}
 .content{
 	position: relative;
 	background: #fff;

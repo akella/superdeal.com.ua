@@ -3,11 +3,10 @@
 .offers:after, .megasocials:after { clear: both; }
 
 .offers { margin-right: -18px; position: relative; }
+.offers .offer { float: left; margin: 0 18px 18px 0; }
 
-.offer { width: 440px; height: 403px; float: left; margin: 0 18px 18px 0; border: 1px solid #c2c8c9; border-radius: 6px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); position: relative; }
+.offer { width: 440px; height: 403px; border: 1px solid #c2c8c9; border-radius: 6px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); position: relative; }
 .offer:hover { border-color: #87b8da; }
-.offer .offer__discount { position: absolute; top: -4px; right: -5px; background: url('../img/icons-sa093b2813f.png') 0 -701px no-repeat; width: 96px; height: 97px; color: #000; font-size: 1px; z-index: 50; }
-.offer .offer__discount span { display: block; height: 35px; line-height: 35px; width: 130px; color: #fff; text-align: center; -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); filter: progid:DXImageTransform.Microsoft.Matrix(M11=$m11, M12=$m12,M21=$m21, M22=$m22, sizingMethod='auto expand'); zoom: 1; -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0; -ms-transform-origin: 0 0; -o-transform-origin: 0 0; transform-origin: 0 0; position: absolute; left: 27px; top: -27px; font-size: 27px; padding-top: 2px; }
 .offer .bought { position: absolute; right: 10px; bottom: 73px; border-radius: 6px; display: inline-block; background-color: #fff; background: rgba(255, 255, 255, 0.7); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); padding: 2px 8px; font-size: 13px; color: #000; z-index: 30; }
 .offer .bought .bought__icon { display: inline-block; vertical-align: middle; position: relative; top: -3px; background: url('../img/icons-sa093b2813f.png') 0 -2757px no-repeat; width: 18px; height: 12px; margin: 0 3px 0 6px; }
 .offer .pics { position: absolute; bottom: 53px; left: 0; }
