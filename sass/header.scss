@@ -89,22 +89,12 @@
 			@extend %hide-text;
 			margin-right: 5px;
 			vertical-align: top;
-			&.hsocials__fb{
-				@include sized-sprite($icons, fb);
-				&:hover{
-					@include sized-sprite($icons, fb_hover);
-				}
-			}
-			&.hsocials__vk{
-				@include sized-sprite($icons, vk);
-				&:hover{
-					@include sized-sprite($icons, vk_hover);
-				}
-			}
-			&.hsocials__gp{
-				@include sized-sprite($icons, gp);
-				&:hover{
-					@include sized-sprite($icons, gp_hover);
+			@each $social in fb, vk, gp{
+				&.hsocials__#{$social}{
+					@include sized-sprite($icons, #{$social});
+					&:hover{
+						@include sized-sprite($icons, #{$social}_hover);
+					}
 				}
 			}
 		}

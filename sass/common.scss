@@ -35,6 +35,7 @@ body{
 	}
 	line-height:1.4;
 	background: #c2dde4 url(../img/bg.png) repeat 0 0;
+	min-width: 962px;
 }
 // resets
 a img,fieldset{
@@ -74,6 +75,32 @@ a{
 %site{
 	width: 940px;
 	margin: auto;
+}
+%button{
+	display: inline-block;
+	font-size: 18px;
+	color: #191513;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 6px;
+	border: 1px solid #e7d700;
+	border-bottom: 1px solid #aaa300;
+	box-shadow:inset 0 -1px 0 rgba(#000,.1);
+	background-color: #fff800;
+	@include background-image(linear-gradient(#fff800, #ffe600));
+	padding: 0 18px;
+	height: 32px;
+	line-height: 31px;
+	z-index: 10;
+	@include transition(all,.3s,linear);
+	&:hover{
+		background-color: #fffbad;
+		@include background-image(linear-gradient(#fffbad, #fff75f));
+	}
+	&:active{
+		background-color: #ffd300;
+		@include background-image(linear-gradient(#ffd300, #fff300));
+	}
 }
 .content{
 	position: relative;

@@ -1,15 +1,33 @@
 @import "base";
+$footerheight: 236px;
+//footer stick to bottom
+html, body {
+	height: 100%;
+}
+.wholesite {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto (-$footerheight);
+	}
+.footer, .wholesite__push {
+	height: $footerheight;
+}
+// end footer stick to bottom
 .footer{
 	background-color: #363636;
 	@include background-image(linear-gradient(#252525, #363636));
-	margin: 0 -11px;
+	//margin: 0 -11px;
+	width: 962px;
 	position: relative;
-	padding: 50px 40px 40px 40px;
 	color: #fff;
 	font-size: 13px;
 	line-height: 1.4;
+	height: $footerheight;
+	margin: auto;
 	.footer__wrap{
 		@extend %clr;
+		padding: 50px 40px 40px 40px;
 	}
 	&:before,&:after{
 		content:'';
@@ -76,25 +94,13 @@
 			display: inline-block;
 			vertical-align: top;
 			@extend %hide-text;
-			&.social__fb{
-				@include sized-sprite($icons, f-fb);
-				&:hover{@include sized-sprite($icons, f-fb_hover);}
-				&:active{@include sized-sprite($icons, f-fb_active);}
-			}
-			&.social__vk{
-				@include sized-sprite($icons, f-vk);
-				&:hover{@include sized-sprite($icons, f-vk_hover);}
-				&:active{@include sized-sprite($icons, f-vk_active);}
-			}
-			&.social__gp{
-				@include sized-sprite($icons, f-gp);
-				&:hover{@include sized-sprite($icons, f-gp_hover);}
-				&:active{@include sized-sprite($icons, f-gp_active);}
-			}
-			&.social__rss{
-				@include sized-sprite($icons, f-rss);
-				&:hover{@include sized-sprite($icons, f-rss_hover);}
-				&:active{@include sized-sprite($icons, f-rss_active);}
+			//loop thru icons
+			@each $social in fb, vk, gp, rss{
+				&.social__#{$social}{
+					@include sized-sprite($icons, f-#{$social});
+					&:hover{@include sized-sprite($icons, f-#{$social}_hover);}
+					&:active{@include sized-sprite($icons, f-#{$social}_active);}
+				}
 			}
 		}
 	}
