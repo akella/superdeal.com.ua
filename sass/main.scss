@@ -68,20 +68,10 @@
 		}
 	}
 	.pics__next{
-		position: absolute;
-		display: none;
-		top: 50%;
-		margin-top: -15px;
-		@include sized-sprite($icons, offer_next);
-		right: -6px;
-		z-index: 50;
-		cursor: pointer;
+		@extend %next;
 	}
 	.pics__prev{
-		@extend .pics__next;
-		left: -6px;
-		right: auto;
-		@include sized-sprite($icons, offer_prev);
+		@extend %prev;
 	}
 	.pics_slider{
 		.pics__prev,.pics__next{

@@ -42,10 +42,7 @@ a img,fieldset{
 	border:none;
 	}
 a{
-	color:#00919e;
-	&:hover{
-		text-decoration:none;
-	}
+	color:#3383ae;
 }
 // common styles, these could be attached to any block with "@extend %wyswyg;"
 %wyswyg{
@@ -93,6 +90,7 @@ a{
 	line-height: 31px;
 	z-index: 10;
 	@include transition(all,.3s,linear);
+	cursor: pointer;
 	&:hover{
 		background-color: #fffbad;
 		@include background-image(linear-gradient(#fffbad, #fff75f));
@@ -102,12 +100,37 @@ a{
 		@include background-image(linear-gradient(#ffd300, #fff300));
 	}
 }
+%bigbutton{
+	@extend %button;
+	font-size: 24px;
+	height: 56px;
+	line-height: 56px;
+	padding: 0 47px;
+}
+%addtocart{
+	@extend %bigbutton;
+	text-align: center;
+	width: 92px;
+	padding: 0;
+	line-height: 1;
+	padding-top: 6px;
+	height: 56px - 6px;
+	span{
+		display: block;
+		font-size: 14px;
+	}
+	i{
+		@include sized-sprite($icons, addtocart);
+		display: inline-block;
+	}
+}
 %h2{
 	font-size: 21px;
 	font-weight: bold;
 	margin: 10px 0 15px 0;
 	color: #000;
 }
+.h2{@extend %h2;}
 %discount{
 	position: absolute;
 	top: -4px;
@@ -131,6 +154,22 @@ a{
 		font-size: 27px;
 		padding-top: 2px;
 	}
+}
+%next{
+	position: absolute;
+	display: none;
+	top: 50%;
+	margin-top: -15px;
+	@include sized-sprite($icons, offer_next);
+	right: -6px;
+	z-index: 50;
+	cursor: pointer;
+}
+%prev{
+	@extend %next;
+	left: -6px;
+	right: auto;
+	@include sized-sprite($icons, offer_prev);
 }
 .content{
 	position: relative;
