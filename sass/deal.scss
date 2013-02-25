@@ -28,26 +28,7 @@
 		line-height: 1.2;
 		margin-bottom: 12px;
 	}
-	.deal__tags{
-		font-size: 12px;
-		margin-bottom: 14px;
-		a{
-			color: #959595;
-			margin-right: 2px;
-			&:hover{
-				text-decoration: none;
-			}
-		}
-		.deal__tagsicon{
-			@include sized-sprite($icons, tags);
-			opacity: .3;
-			display: inline-block;
-			margin-right: 5px;
-			vertical-align: middle;
-			position: relative;
-			top: -1px;
-		}
-	}
+	
 	.deal__label{
 		font-size: 13px;
 		font-weight: bold;
@@ -63,7 +44,7 @@
 		strong{
 			font-size: 20px;
 			display: block;
-			font-weight: normal;
+			font-weight: bold;
 		}
 	}
 	.deal__nominaldiscount{
@@ -72,7 +53,7 @@
 		strong{
 			font-size: 20px;
 			display: block;
-			font-weight: normal;
+			font-weight: bold;
 		}
 	}
 	.deal__timeleftwrap{
@@ -219,7 +200,47 @@
 		float: right;
 		width: 92px;
 	}
+	&.deal_alt{
+		padding: 0;
+		.deal__left{
+			width: 550px;
+			height: 325px;
+			padding: 0;
+			border: #000;
+			.pics__wrap{
+				width: 550px;
+				height: 325px;
+				div{
+					border-radius: 0;
+					border-top-left-radius:6px;
+					border-bottom-left-radius:6px;
+				}
+			}
+		}
+		.deal__right{
+			width: 307px;
+			margin-right: 20px;
+			margin-top: 20px;
+			.deal__socials{
+				border: none;
+				padding-top: 7px;
+			}
+			.deal__bought{
+				margin-bottom: 15px;
+			}
+			.deal__timeleftwrap{
+				border-bottom: none;
+			}
+			.deal__buttons{
+				margin-top: 8px;
+			}
+		}
+	}
 }
+.deal__titlemeta{
+	margin: 0 10px;
+}
+
 .number{
 	input{
 		border: 1px solid #c7c7c7;
@@ -264,6 +285,27 @@
 		border: 1px solid #c7c7c7;
 		border-left: none;
 		height: 30px;
+	}
+}
+
+.tags{
+	font-size: 12px;
+	margin-bottom: 14px;
+	a{
+		color: #959595;
+		margin-right: 2px;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	.tags__icon{
+		@include sized-sprite($icons, tags);
+		opacity: .3;
+		display: inline-block;
+		margin-right: 5px;
+		vertical-align: middle;
+		position: relative;
+		top: -1px;
 	}
 }
 .size{
@@ -368,6 +410,12 @@
 			}
 
 		}
+		&.dealinfo__nav_short{
+			display: inline-block;
+			a{
+				padding-right: 14px;
+			}
+		}
 	}
 	.dealinfo__text{
 		font-size: 14px;
@@ -410,7 +458,36 @@
 		}
 	}
 }
-
+.place{
+	@extend %clr;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 14px;
+	.place__left{
+		float: left;
+		width: 300px;
+	}
+	.place__right{
+		float: right;
+		width: 204px;
+		p{
+			margin-bottom: 10px;
+		}
+	}
+	.place__org{
+		color: #959595;
+	}
+	.place__addr{
+		font-weight: bold;
+		color: #000;
+	}
+	.place__info{
+		span{
+			display: block;
+			color: #959595;
+		}
+	}
+}
 
 .sharedeal{
 	background: #f1f7f9;

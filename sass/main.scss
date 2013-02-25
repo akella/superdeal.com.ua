@@ -51,34 +51,6 @@
 			margin: 0 3px 0 6px;
 		}
 	}
-	.pics{
-		position: absolute;
-		bottom: 53px;
-		left: 0;
-		.pics__wrap{
-			width: 440px;
-			height: 270px;
-			overflow: hidden;
-			div{
-				border-radius: 6px;
-			}
-			img{
-				display: block;
-			}
-		}
-	}
-	.pics__next{
-		@extend %next;
-	}
-	.pics__prev{
-		@extend %prev;
-	}
-	.pics_slider{
-		.pics__prev,.pics__next{
-			display: block;
-		}
-	}
-	
 	.price{
 		position: absolute;
 		height: 53px - 17px;
@@ -131,6 +103,11 @@
 		border-top-right-radius:6px;
 		border-top-left-radius:6px;
 		background: url(../img/icons/zub.png) repeat-x 0 100%;
+	}
+	.pics{
+		position: absolute;
+		bottom: 53px;
+		left: 0;
 	}
 	.timeleft{
 		position: absolute;
@@ -238,6 +215,31 @@
 	}
 }
 
+.pics{
+	position: relative;
+	.pics__wrap{
+		width: 440px;
+		height: 270px;
+		overflow: hidden;
+		div{
+			border-radius: 6px;
+		}
+		img{
+			display: block;
+		}
+	}
+}
+.pics__next{
+	@extend %next;
+}
+.pics__prev{
+	@extend %prev;
+}
+.pics_slider{
+	.pics__prev,.pics__next{
+		display: block;
+	}
+}
 .more{
 	cursor: pointer;
 	border-radius: 6px;
