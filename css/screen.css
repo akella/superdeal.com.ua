@@ -372,6 +372,7 @@ html, body { height: 100%; }
 .deal .deal__buy .deal__chooseicon { background: url('../img/icons-sc70f32b610.png') 0 -1287px no-repeat; width: 33px; height: 32px; vertical-align: middle; display: inline-block; position: relative; top: -1px; }
 .deal .deal__buy.deal__choose { width: auto !important; white-space: nowrap; display: inline-block; padding: 0 10px; }
 .deal .deal__price { height: 56px; line-height: 56px; float: left; width: 132px; text-align: center; font-size: 24px; font-weight: bold; }
+.deal .deal__finished { height: 56px; line-height: 56px; width: 300px; text-align: center; font-size: 24px; color: #111; font-weight: bold; }
 .deal .deal__addtocartbutton { float: right; width: 92px; }
 .deal.deal_alt { padding: 0; }
 .deal.deal_alt .deal__left { width: 550px; height: 325px; padding: 0; border: #000; }
