@@ -176,6 +176,7 @@
 		border-radius: 6px;
 		position: relative;
 		@include background-image(linear-gradient(#ffffe6, #fff));
+		width: 100%;
 	}
 	.deal__buy{
 		@extend %bigbutton;
@@ -185,6 +186,19 @@
 		top: -1px;
 		right: -1px;
 		text-align: center;
+		.deal__chooseicon{
+			@include sized-sprite($icons, choose);
+			vertical-align: middle;
+			display: inline-block;
+			position: relative;
+			top: -1px;
+		}
+		&.deal__choose{
+			width: auto !important;
+			white-space:nowrap;
+			display: inline-block;
+			padding: 0 10px;
+		}
 	}
 	.deal__price{
 		height: 56px;
@@ -241,6 +255,19 @@
 	margin: 0 10px;
 }
 
+
+.choose{
+	@extend %bigbutton;
+	padding: 0 20px;
+	text-align: center;
+	.choose__icon{
+		@include sized-sprite($icons, choose);
+		vertical-align: middle;
+		display: inline-block;
+		position: relative;
+		top: -1px;
+	}
+}
 .number{
 	input{
 		border: 1px solid #c7c7c7;
