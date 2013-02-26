@@ -28,7 +28,18 @@
 		line-height: 1.2;
 		margin-bottom: 12px;
 	}
-	
+	.deal__tags{
+		@extend .tags;
+		.deal__tagsicon{
+			@include sized-sprite($icons, tags);
+			opacity: .3;
+			display: inline-block;
+			margin-right: 5px;
+			vertical-align: middle;
+			position: relative;
+			top: -1px;
+		}
+	}
 	.deal__label{
 		font-size: 13px;
 		font-weight: bold;
@@ -176,7 +187,6 @@
 		border-radius: 6px;
 		position: relative;
 		@include background-image(linear-gradient(#ffffe6, #fff));
-		width: 100%;
 	}
 	.deal__buy{
 		@extend %bigbutton;
@@ -248,6 +258,9 @@
 			.deal__buttons{
 				margin-top: 8px;
 			}
+		}
+		.deal__addtocart{
+			width: 300px;
 		}
 	}
 }
