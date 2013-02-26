@@ -13,7 +13,7 @@ $(document).ready(function() {
 		if(le>1){
 			$(this).parent().addClass('pics_slider');
 			var prev_arr = $(this).parent().children('.pics__prev');
-	        var next_arr = $(this).parent().children('.pics__next');;
+	        var next_arr = $(this).parent().children('.pics__next');
 	        $(this).cycle({
 	            fx:      'scrollHorz',
 	            next:    next_arr,
@@ -22,6 +22,17 @@ $(document).ready(function() {
 	            speed: 700
 	        });
 		}
+	});
+	$('.gallery__caro').before('<ul class="gallery__thumbs"></ul>');
+	var prev_arr = $('.gallery__prev');
+	var next_arr = $('.gallery__next');
+	$('.gallery__pic').cycle({
+	    pager:  '.gallery__thumbs',
+	    next:    next_arr,
+	    prev:    prev_arr,
+	    pagerAnchorBuilder: function(idx, slide) {
+	        return '<li><a href="#"><img src="' + slide.src + '" width="50" height="50" /></a></li>'; 
+	    }
 	});
 	$('.profile__meta').click(function(event) {
 		$('.popup').addClass('show');

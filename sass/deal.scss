@@ -402,6 +402,9 @@
 		list-style: none;
 		li{
 			margin-bottom: 9px;
+			&.activeSlide{
+				box-shadow:0 0 2px 2px #b5d0e2;
+			}
 		}
 		img,a{
 			display: block;

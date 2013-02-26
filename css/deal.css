@@ -80,6 +80,7 @@
 
 .gallery .gallery__thumbs { float: left; width: 50px; list-style: none; }
 .gallery .gallery__thumbs li { margin-bottom: 9px; }
+.gallery .gallery__thumbs li.activeSlide { box-shadow: 0 0 2px 2px #b5d0e2; }
 .gallery .gallery__thumbs img, .gallery .gallery__thumbs a { display: block; }
 .gallery .gallery__caro { float: right; width: 400px; position: relative; }
 .gallery .gallery__next { display: block; }
