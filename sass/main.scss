@@ -52,37 +52,6 @@
 			margin: 0 3px 0 6px;
 		}
 	}
-	.price{
-		position: absolute;
-		height: 53px - 17px;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		background: #FFF;
-		padding: 17px 0 0 18px;
-		border-bottom-right-radius:6px;
-		border-bottom-left-radius:6px;
-		line-height: 1;
-		.price__actual{
-			font-weight: bold;
-			font-size: 22px;
-			margin-right: 5px;
-		}
-		.price__old{
-			text-decoration: none;
-			font-size: 16px;
-			color: #4c4c4c;
-			position: relative;
-			&:before{
-				border-top: 1px solid #ed1c24;
-				content:' ';
-				position: absolute;
-				top: 50%;
-				left: 0;
-				width: 100%;
-			}
-		}
-	}
 	.offer__link{
 		@extend %button;
 		position: absolute;
@@ -215,7 +184,18 @@
 		}
 	}
 }
-
+.price{
+	@extend %price;
+	position: absolute;
+	height: 53px - 17px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #FFF;
+	padding: 17px 0 0 18px;
+	border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+}
 .pics{
 	position: relative;
 	.pics__wrap{

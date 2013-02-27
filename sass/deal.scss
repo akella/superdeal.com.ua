@@ -566,3 +566,99 @@
 		margin-top: 20px;
 	}
 }
+.deal-more__wrap{
+	position: relative;
+	display: inline-block;
+	.deal__buttons &{
+		float: right;
+	}
+}
+.deal-more{
+	position: absolute;
+	right: 0;
+	top: 60px;
+	width: 700px - 40px;
+	padding: 20px;
+	z-index: 100;
+	background: #ffffff;
+	border-radius: 6px;
+	@include background-clip(padding-box);
+	background-color: #f0f4f7;
+	@include box-shadow(0 2px 5px rgba(0,0,0,.13), 0 0 18px rgba(37,104,145,.45), inset 0 1px 1px rgba(255,255,255,.75));
+	@include background-image(linear-gradient(bottom, #e7edf1 0%, #f1f5f7 100%));
+	.deal-more__title{
+		font-size: 24px;
+		line-height: 1;
+		color: #222;
+		margin-bottom: 15px;
+	}
+	.deal-more__close{
+		@include sized-sprite($icons, deal-more__close);
+		cursor: pointer;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		display: inline-block;
+	}
+}
+.deal-small{
+	margin-bottom: 10px;
+	@include opacity(.7);
+	border: 1px solid #c1c7c9;
+	@include border-radius(7px);
+	@include background-clip(padding-box);
+	background-color: #f9fbfc;
+	@include box-shadow(0 2px 5px rgba(0,0,0,.1));
+	padding: 14px 18px 10px 10px;
+	overflow: hidden;
+	.deal-small__pic{
+		float: left;
+		width: 90px;
+		margin-right: 10px;
+		img{
+			border: 1px solid #cacfd0;
+		}
+	}
+	.deal-small__link{
+		width: 309px;
+		float: left;
+		color: #000;
+		font-size: 13px;
+		font-weight: bold;
+		line-height: 1.3em;
+	}
+	.deal-small__price{
+		@extend %price;
+		text-align: right;
+		float: left;
+		width: 106px;
+		position: relative;
+		margin-top: 19px;
+		.price__old{
+			text-align: right;
+			position: absolute;
+			top: -12px;
+			right: 0;
+			font-size: 10px;
+			white-space:nowrap;
+		}
+		.price__actual{
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.deal-small__buy{
+		float: right;
+		margin-top: 5px;
+		@extend %button;
+	}
+}
+
+
+
+
+
+
+
+
