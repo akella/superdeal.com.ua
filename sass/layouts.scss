@@ -9,7 +9,7 @@
 		float:left;
 		width: 520px;
 	}
-	&.l_static .l-col2{
+	&.l_static .l-col1{
 		width: 635px;
 	}
 
@@ -24,3 +24,4 @@
 .page{
 	@extend %site;
 }
+

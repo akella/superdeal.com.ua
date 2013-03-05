@@ -1,6 +1,6 @@
 /* default layout */
 .l { width: 100%; display: inline-block; }
 .l .l-col1 { float: left; width: 520px; }
-.l.l_static .l-col2 { width: 635px; }
+.l.l_static .l-col1 { width: 635px; }
 .l .l-col2 { float: right; width: 288px; }
 .l.l_static .l-col2 { width: 246px; }

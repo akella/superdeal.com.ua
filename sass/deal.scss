@@ -541,13 +541,9 @@
 }
 
 .sharedeal{
-	background: #f1f7f9;
-	border-radius: 6px;
-	border: 1px solid #c2c8c9;
-	box-shadow:0 2px 4px rgba(#000,0.1);
+	@extend %blueblock;
 	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 20px;
+	color: #357eb5;
 	.sharedeal__text{
 		color: #357eb5;
 		font-size: 12px;

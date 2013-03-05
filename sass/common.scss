@@ -126,6 +126,22 @@ a{
 		display: inline-block;
 	}
 }
+%greenbutton{
+	@include border-radius(6px);
+	@include background-clip(padding-box);
+	background-color: #4ba109;
+	@include box-shadow(inset 0 1px 1px rgba(255,255,255,.3));
+	@include background-image(linear-gradient(bottom, rgba(0,0,0,.2) 0%, rgba(255,255,255,.2) 100%));
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 14px;
+	text-decoration: none;
+}
+.greenbutton{@extend %greenbutton;}
 %h2{
 	font-size: 21px;
 	font-weight: bold;
@@ -205,6 +221,17 @@ a{
 		}
 	}
 }
+%blueblock{
+	background: #f1f7f9;
+	border-radius: 6px;
+	border: 1px solid #c2c8c9;
+	box-shadow:0 2px 4px rgba(#000,0.1);
+	padding: 20px;
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+//content wrapper styles
 .content{
 	position: relative;
 	background: #fff;
