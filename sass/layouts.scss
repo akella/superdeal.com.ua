@@ -9,10 +9,16 @@
 		float:left;
 		width: 520px;
 	}
+	&.l_static .l-col2{
+		width: 635px;
+	}
 
 	.l-col2{
 		float:right;
 		width: 288px;
+	}
+	&.l_static .l-col2{
+		width: 246px;
 	}
 }
 .page{

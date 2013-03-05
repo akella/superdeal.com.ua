@@ -359,7 +359,6 @@
 }
 .size{
 	list-style: none;
-	@extend %clr;
 	li{
 		float: left;
 	}
@@ -599,6 +598,14 @@
 		right: 20px;
 		top: 20px;
 		display: inline-block;
+	}
+	&:before{
+		content:' ';
+		display: inline-block;
+		position: absolute;
+		right: 20px;
+		top: -7px;
+		@include sized-sprite($icons, arr-top);
 	}
 }
 .deal-small{
