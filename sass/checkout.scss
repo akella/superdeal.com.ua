@@ -1,0 +1,189 @@
+@import 'base';
+
+.checkout__wrap{
+	@extend %box;
+	padding: 13px 20px 20px 20px;
+}
+.selectreplaced{
+	margin-left: 6px;
+}
+.checkout__table{
+	width: 100%;
+	border-spacing:0;
+	border-collapse:collapse;
+	margin-bottom:12px;
+	td{
+		vertical-align: top;
+	}
+	thead th{
+		padding-bottom: 15px;
+		color: #737373;
+		font-weight: normal;
+		font-size: 13px;
+		text-align: left;
+	}
+	.checkout__t1{ 
+		width: 136px;
+		padding-right: 14px;
+	}
+	.checkout__t2{
+		width: 405px;
+		padding-right: 10px;
+		text-align: left;
+	}
+	.checkout__t3{ 
+		text-align: center;
+		width: 102px;
+		vertical-align: middle;
+	}
+	.checkout__t4{
+		text-align: right;
+		vertical-align: middle;
+	}
+	td.checkout__t4{
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	
+}
+.selectreplaced{
+	border-radius: 4px;
+	border: 1px solid #c7c7c7;
+	box-shadow:inset 0 1px 0 #c7c7c7;
+	font-size: 14px;
+	height: 30px;
+	display: inline-block;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	width: 400px;
+	position: relative;
+	.selectreplaced__actual{
+		position: absolute;
+		opacity: 0;
+		height: 32px;
+		-webkit-appearance:none;
+		width: 100%;
+		z-index: 3;
+		top: 0;
+		left: 0;
+
+	}
+	i{
+		position: absolute;
+		right: 10px;
+		top: 12px;
+		display: inline-block;
+		z-index: 2;
+		@include sized-sprite($icons, select);
+	}
+	.selectreplaced__value{
+		height: 30px;
+		line-height: 30px;
+		padding-left: 10px;
+	}
+}
+
+.checkout__details{
+	margin: 20px 0 20px 20px;
+}
+
+.present{
+	font-size: 14px;
+
+	input{
+		vertical-align: middle;
+	}
+	.present__icon{
+		@include sized-sprite($icons, present);
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 4px;
+		position: relative;
+		top: -2px; 
+	}
+	.present__input{
+		vertical-align: middle;
+		width: 276px;
+		width: 292px - 2px - 10px - 10px;
+		padding: 0 10px;
+		border-radius: 4px;
+		border: 1px solid #c7c7c7;
+		box-shadow:inset 0 1px 0 #c7c7c7;
+		font-size: 14px;
+		height: 30px;
+		position: relative;
+		top: -2px;
+	}
+	label{
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+}
+
+.payment{
+	@extend %clr;
+	margin-bottom: 30px;
+	ul{
+		list-style: none;
+	}
+	.payment__item{
+		text-align: center;
+		float: left;
+		width: 98px;
+		height: 118px;
+		margin-right: 10px;
+		border: 1px solid #879fb3;
+		@include border-radius(5px);
+		background-color: #b6b6b6;
+		@include box-shadow(inset 0 -4px 0 rgba(47,65,77,.51));
+		@include background-image(linear-gradient(bottom, #bcd0df -25%, #f3f7f9 125%));
+		position: relative;
+		&:hover{
+			background: #ecf2f6;
+			@include box-shadow(inset 0 -4px 0 rgba(47,65,77,.81));
+		}
+	}
+	.payment__help{
+		position: absolute;
+		top: 6px;
+		right: 6px;
+		@include sized-sprite($icons, help1);
+		display: inline-block;
+		z-index: 100;
+		cursor: pointer;
+
+	}
+	.payment__info{
+		strong{
+			font-size: 22px;
+			color: #111;
+			display: block;
+			text-align: center;
+			margin-top: 13px;
+		}
+	}
+	.payment__title{
+		position: absolute;
+		bottom: 13px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 12px;
+		font-weight: bold;
+		z-index: 20;
+	}
+	.payment__icon{
+		display: inline-block;
+		top: 50%;
+		margin-top: -40px;
+		position: relative;
+	}
+	@each $s in visa, privat, bank, terminal, interkassa, webmoney, liqpay{
+		.payment__#{$s} .payment__icon{
+			@include sized-sprite($icons, c-#{$s});
+		}
+	}
+}

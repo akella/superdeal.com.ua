@@ -17,11 +17,9 @@
 }
 //======offers
 .offer{
+	@extend %box;
 	width: 442px - 2px;
 	height: 403px;
-	border: 1px solid #c2c8c9;
-	border-radius: 6px;
-	box-shadow:0 2px 4px rgba(#000,0.1);
 	position: relative;
 	&:hover{
 		border-color: #87b8da;

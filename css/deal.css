@@ -2,7 +2,7 @@
 .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after { content: " "; display: table; }
 .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after { clear: both; }
 
-.deal { border: 1px solid #c2c8c9; border-radius: 6px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin-bottom: 23px; position: relative; padding: 19px; }
+.deal { margin-bottom: 23px; position: relative; padding: 19px; }
 .deal .deal__left { float: left; width: 460px; padding-right: 22px; border-right: 1px dotted #b5d0e2; }
 .deal .deal__right { width: 360px; float: right; }
 .deal .deal__title { font-size: 24px; color: #333; font-weight: bold; line-height: 1.2; margin-bottom: 12px; }
