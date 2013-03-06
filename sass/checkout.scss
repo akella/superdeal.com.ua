@@ -57,8 +57,9 @@
 	overflow: hidden;
 	-ms-text-overflow: ellipsis;
 	text-overflow: ellipsis;
-	width: 400px;
+	width: 650px;
 	position: relative;
+	vertical-align: middle;
 	.selectreplaced__actual{
 		position: absolute;
 		opacity: 0;
@@ -84,9 +85,13 @@
 		padding-left: 10px;
 	}
 }
-
+.checkout__address{
+	label{
+		vertical-align: middle;
+	}
+}
 .checkout__details{
-	margin: 20px 0 20px 20px;
+	margin: 20px 0 20px 10px;
 }
 
 .present{
@@ -149,8 +154,8 @@
 	}
 	.payment__help{
 		position: absolute;
-		top: 5px;
-		right: 6px;
+		top: 4px;
+		right: 5px;
 		@include sized-sprite($icons, help1);
 		display: inline-block;
 		z-index: 100;
@@ -158,12 +163,13 @@
 
 	}
 	.payment__info{
+		padding-top: 20px;
 		strong{
 			font-size: 22px;
-			color: #111;
+			color: #333;
 			display: block;
 			text-align: center;
-			margin-top: 13px;
+			margin-top: 10px;
 		}
 	}
 	.payment__title{
