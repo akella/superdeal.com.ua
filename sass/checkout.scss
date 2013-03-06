@@ -194,4 +194,67 @@
 			@include sized-sprite($icons, c-#{$s});
 		}
 	}
+	//alternative view
+	&.payment_alt{
+		.payment__item{
+			width: 95px;
+			margin-right: 0;
+			border: none;
+			background: transparent;
+			@include box-shadow(none);
+			position: relative;
+			cursor: pointer;
+			&:hover{
+				background: transparent;
+				@include box-shadow(none);
+			}
+			label{
+				cursor: pointer;
+			}
+		}
+		.payment__help{
+			top: -2px;
+			right: -2px;
+		}
+		.payment__icon{
+			display: inline-block;
+			top: 0;
+			margin-top: 0;
+			height: 50px;
+			position: relative;
+		}
+		.payment__info{
+			height: 42px;
+			padding: 10px 0 0 0;
+			strong{
+				font-size: 12px;
+				padding-top: 0;
+				margin: 0;
+			}
+		}
+		.payment__title{
+			position: static;
+			width: auto;
+			text-align: center;
+			font-size: 12px;
+			font-weight: bold;
+			b{
+				display: block;
+				padding-top: 3px;
+			}
+		}
+		@each $s in visa, privat, bank, terminal, interkassa, webmoney, liqpay{
+			.payment__#{$s} .payment__icon{
+				@include sized-sprite($icons, c1-#{$s});
+			}
+		}
+		.payment__bonuses{
+			background: #f3fafc;
+			border-radius: 6px;
+			border: 1px solid #c2c8c9;
+			margin-left: 10px;
+			height: auto;
+			padding-bottom: 14px;
+		}
+	}
 }

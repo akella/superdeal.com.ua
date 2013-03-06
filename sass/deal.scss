@@ -126,6 +126,7 @@
 	.deal__size{
 		padding: 14px 0 0 0;
 		margin-bottom: 22px;
+		@extend %clr;
 		.deal__label{
 			margin-bottom: 11px;
 		}

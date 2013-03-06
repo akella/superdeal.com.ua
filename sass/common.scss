@@ -142,8 +142,20 @@ a{
 	line-height: 26px;
 	padding: 0 14px;
 	text-decoration: none;
+	.greenbutton__arrow{
+		@include sized-sprite($icons, arrowright);
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 3px;
+	}
 }
 .greenbutton{@extend %greenbutton;}
+.greenbutton_big{
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+	font-size: 16px;
+}
 %h2{
 	font-size: 21px;
 	font-weight: bold;
