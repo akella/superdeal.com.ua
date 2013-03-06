@@ -38,6 +38,21 @@
 	.subtle{
 		color: #898989;
 	}
+	&.text_narrow{
+		p{
+			margin-right: 250px;
+		}
+	}
+	ul{
+		margin: 1em 2em;
+		line-height: 1.5;
+		&.list-style-none{
+			list-style: none;
+		}
+	}
+	.green{
+		color: #4a8f16;
+	}
 }
 .linkmore{
 	@include border-radius(6px);

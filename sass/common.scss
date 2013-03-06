@@ -142,11 +142,29 @@ a{
 	line-height: 26px;
 	padding: 0 14px;
 	text-decoration: none;
+	&:hover{
+		background-color: #4ba109;
+		@include box-shadow(inset 0 1px 1px rgba(255,255,255,.3));
+		@include background-image(linear-gradient(bottom, rgba(38,38,38,.41) 0%, rgba(255,255,255,.41) 100%));
+	}
+	&:active{
+		background-color: #4ba109;
+		@include box-shadow(inset 0 1px 1px rgba(255,255,255,.3));
+		@include background-image(linear-gradient(bottom, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%));
+	}
 	.greenbutton__arrow{
 		@include sized-sprite($icons, arrowright);
 		display: inline-block;
 		vertical-align: middle;
-		margin-left: 3px;
+		margin-left: 6px;
+	}
+	.greenbutton__arrowleft{
+		@include sized-sprite($icons, arrowleft);
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 6px;
+		position: relative;
+		top: -2px;
 	}
 }
 .greenbutton{@extend %greenbutton;}

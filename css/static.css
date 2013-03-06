@@ -8,6 +8,10 @@
 .text p { margin-bottom: 1.2em; }
 .text h2 { font-size: 18px; font-weight: bold; margin: 16px 0 4px 0; }
 .text .subtle { color: #898989; }
+.text.text_narrow p { margin-right: 250px; }
+.text ul { margin: 1em 2em; line-height: 1.5; }
+.text ul.list-style-none { list-style: none; }
+.text .green { color: #4a8f16; }
 
 .linkmore { -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; background-color: #fff; border: 3px solid #b0cad2; text-align: center; font-weight: bold; font-size: 13px; color: #000; height: 37px; line-height: 37px; margin-top: 20px; }
 .linkmore a { color: #0f71b3; }
