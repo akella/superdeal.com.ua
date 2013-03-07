@@ -452,6 +452,7 @@ html, body { height: 100%; }
 .dealinfo .dealinfo__nav li.dealinfo__nav4 a { width: 87px; }
 .dealinfo .dealinfo__nav a { float: left; padding-left: 20px; color: #707274; }
 .dealinfo .dealinfo__nav a:hover { color: #000; background: #f9fbfc; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); }
+.dealinfo .dealinfo__nav a.active { color: #000; background: #f9fbfc; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); }
 .dealinfo .dealinfo__nav.dealinfo__nav_short { display: inline-block; }
 .dealinfo .dealinfo__nav.dealinfo__nav_short a { padding-right: 14px; }
 .dealinfo .dealinfo__text { font-size: 14px; line-height: 1.4; }
@@ -494,6 +495,16 @@ html, body { height: 100%; }
 .deal-small .deal-small__price .price__old { text-align: right; position: absolute; top: -12px; right: 0; font-size: 10px; white-space: nowrap; }
 .deal-small .deal-small__price .price__actual { font-size: 18px; margin: 0; padding: 0; }
 .deal-small .deal-small__buy { float: right; margin-top: 5px; }
+
+.commentform { margin: 20px 0; }
+.commentform .commentform__title { margin-bottom: 15px; }
+.commentform .commentform__accept { margin: 10px 0; font-size: 12px; }
+.commentform .commentform__accept a { color: #000; }
+.commentform .commentform__accept input { margin-right: 4px; }
+.commentform .commentform__comment { margin-top: 14px; }
+.commentform .commentform__comment textarea { border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; width: 482px; color: #777; padding: 9px; }
+.commentform .commentform__comment textarea:focus { color: #000; }
+.commentform .commentform__author input { padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; width: 244px; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
