@@ -261,5 +261,53 @@
 
 .printfile{
 	@extend %blueblock;
-	
+	h3{
+		font-size: 14px;
+		color: #333;
+		margin-bottom: 10px;
+	}
+	.printfile__button{
+		vertical-align: top;
+		display: inline-block;
+		text-decoration: none;
+		border: 1px solid #c1c7c9;
+		@include border-radius(7px);
+		background-color: #ebebeb;
+		@include box-shadow(inset 0 1px 1px rgba(255,255,255,.3));
+		@include background-image(linear-gradient(bottom, rgba(234,233,235,.2) 0%, rgba(255,255,255,.2) 100%));
+		color: #000;
+		font-size: 16px;
+		font-weight: bold;
+		height: 35px;
+		line-height: 35px;
+		padding: 0 20px;
+		i{
+			display: inline-block;
+			@include sized-sprite($icons, print);
+			margin-right: 4px;
+		}
+	}
+}
+.file{
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 12px;
+	a{
+		color: #0e6fb0;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	span{
+		font-size: 12px;
+		color: #898989;
+		display: block;
+		padding-top: 3px;
+	}
+	.file__icon{
+		@include sized-sprite($icons, pdf);
+		float: left;
+		margin-right: 6px;
+		position: relative;
+		top: -10px;
+	}
 }
