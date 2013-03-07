@@ -287,7 +287,14 @@ a{
 		display: inline-block;
 	}
 }
-
+.external{
+	color: #898989;
+	&:after{
+		content: ' ';
+		display: inline-block;
+		@include sized-sprite($icons, external);
+	}
+}
 
 
 

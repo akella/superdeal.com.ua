@@ -350,6 +350,52 @@
 		font-style: normal;
 	}
 }
+.accos{
+	margin-bottom: 50px;
+}
+.acco{
+	margin-bottom: 12px;
+	background: #f1f5f8;
+	border-radius: 6px;
+	border: 1px solid #d7dfe3;
+	.acco__head{
+		border-radius: 6px;
+		background-color: #ebebeb;
+		@include box-shadow(inset 0 1px 1px #fff);
+		@include background-image(linear-gradient(bottom, #e5ebf1 -25%, #f3f7f9 125%));
+		padding: 0 0 0 14px;
+		height: 42px;
+		line-height: 42px;
+		font-weight: bold;
+		cursor: pointer;
+		position: relative;
+		.acco__arrow{
+			position: absolute;
+			right: 16px;
+			top: 19px;
+			@include sized-sprite($icons, arrbot);
+		}
+	}
+	.acco__content{
+		padding: 15px 0;
+		border-top: 1px solid #e5eaed;
+		box-shadow:0 -1px 0 #fff;
+		.text{
+			margin-left: 44px;
+			width: 600px;
+		}
+	}
+	&.is-open{
+		.acco__head{
+			border-bottom-left-radius:0;
+			border-bottom-right-radius:0;
+			background: #f2f6f8;
+			.acco__arrow{
+				@include sized-sprite($icons, arrtop);
+			}
+		}
+	}
+}
 
 
 

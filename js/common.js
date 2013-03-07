@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	$('.acco__head').click(function(event) {
+		
+		$(this).parent().toggleClass('is-open');
+		$(this).next().slideToggle();
+	});
+
 	$('.city__change').click(function(event) {
 		$('.location').slideToggle();
 		return false;
