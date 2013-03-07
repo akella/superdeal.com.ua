@@ -53,6 +53,18 @@
 	.green{
 		color: #4a8f16;
 	}
+	.lead{
+		font-size: 18px;
+	}
+	code{
+		font-weight: bold;
+		border: 1px solid rgba(144,144,144,.5);
+		@include border-radius(3px);
+		box-shadow: 0 -1px 0 #d2d2d2;
+		background-color: #fff;
+		padding: 3px 5px;
+		font-family: Arial,sans-serif;;
+	}
 }
 .linkmore{
 	@include border-radius(6px);

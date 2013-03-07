@@ -12,6 +12,8 @@
 .text ul { margin: 1em 2em; line-height: 1.5; }
 .text ul.list-style-none { list-style: none; }
 .text .green { color: #4a8f16; }
+.text .lead { font-size: 18px; }
+.text code { font-weight: bold; border: 1px solid rgba(144, 144, 144, 0.5); -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; box-shadow: 0 -1px 0 #d2d2d2; background-color: #fff; padding: 3px 5px; font-family: Arial,sans-serif; }
 
 .linkmore { -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; background-color: #fff; border: 3px solid #b0cad2; text-align: center; font-weight: bold; font-size: 13px; color: #000; height: 37px; line-height: 37px; margin-top: 20px; }
 .linkmore a { color: #0f71b3; }

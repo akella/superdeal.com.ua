@@ -4,6 +4,7 @@
 	background-color: #363636;
 	@include background-image(linear-gradient(#363636, #252525));
 	box-shadow: 0 0 5px rgba(#000,.8);
+	font-size: 12px;
 	.topper__content{
 		@extend %site;
 		position: relative;
