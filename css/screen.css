@@ -57,6 +57,8 @@ a { color: #3383ae; }
 .content { position: relative; background: #fff; box-shadow: -4px 0 4px -4px rgba(0, 0, 0, 0.3), 4px 0 4px -4px rgba(0, 0, 0, 0.3); padding: 14px 18px 30px 18px; }
 .content:before { content: ''; background: url('../img/icons-s4613a7d45a.png') 0 -4251px no-repeat; width: 971px; height: 6px; position: absolute; top: -1px; left: -15px; display: inline-block; }
 
+.checkout__personal-data input, .present .present__input { padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; vertical-align: middle; }
+
 .external { color: #898989; }
 .external:after { content: ' '; display: inline-block; background: url('../img/icons-s4613a7d45a.png') 0 -4805px no-repeat; width: 10px; height: 9px; }
 
@@ -576,10 +578,14 @@ html, body { height: 100%; }
 
 .checkout__details { margin: 20px 0 20px 10px; }
 
+.checkout__personal-data { margin: 20px 0; }
+.checkout__personal-data h3 { color: #101010; font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+.checkout__personal-data input { width: 270px; margin-right: 20px; }
+
 .present { font-size: 14px; }
 .present input { vertical-align: middle; }
 .present .present__icon { background: url('../img/icons-s4613a7d45a.png') 0 -3572px no-repeat; width: 15px; height: 16px; display: inline-block; vertical-align: middle; margin: 0 4px; position: relative; top: -2px; }
-.present .present__input { vertical-align: middle; width: 276px; width: 270px; padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; position: relative; top: -2px; }
+.present .present__input { width: 276px; width: 270px; position: relative; top: -2px; }
 .present label { margin-right: 10px; vertical-align: middle; }
 
 .payment { margin-bottom: 30px; }

@@ -286,6 +286,15 @@ a{
 		display: inline-block;
 	}
 }
+%input{
+	padding: 0 10px;
+	border-radius: 4px;
+	border: 1px solid #c7c7c7;
+	box-shadow:inset 0 1px 0 #c7c7c7;
+	font-size: 14px;
+	height: 30px;
+	vertical-align: middle;
+}
 .external{
 	color: #898989;
 	&:after{
