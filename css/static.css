@@ -1,3 +1,9 @@
+.subnav { padding: 7px 0; }
+.subnav ul { list-style: none; }
+.subnav ul a { display: block; font-size: 16px; font-weight: bold; color: #000; text-decoration: none; padding: 4px 0 4px 20px; position: relative; }
+.subnav ul a.is-active { background: #acd373; }
+.subnav ul a.is-active:before { content: ' '; position: absolute; margin-top: -10px; top: 50%; left: -12px; background: url('../img/icons-se95550939f.png') 0 -4203px no-repeat; width: 12px; height: 21px; }
+
 .social-block { margin-bottom: 23px; }
 
 .helpme { padding-right: 0; }

@@ -381,7 +381,7 @@
 		.acco__arrow{
 			position: absolute;
 			right: 16px;
-			top: 19px;
+			top: 19px; 
 			@include sized-sprite($icons, arrbot);
 		}
 	}
@@ -389,9 +389,9 @@
 		padding: 15px 0;
 		border-top: 1px solid #e5eaed;
 		box-shadow:0 -1px 0 #fff;
+		padding-right: 20px;
 		.text{
 			margin-left: 44px;
-			width: 600px;
 		}
 	}
 	&.is-open{
