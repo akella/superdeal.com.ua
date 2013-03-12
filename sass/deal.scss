@@ -706,6 +706,47 @@
 	}
 
 }
+.thread{
+	border-bottom: 1px dotted #b5d0e2;
+	margin-bottom: 25px;
+}
+.comment{
+	margin-bottom: 13px;
+	.comment__text{
+		font-size: 14px;
+		color: #000;
+		margin-bottom: 4px; 
+		p{
+			margin-bottom: 1em;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.comment__author{
+		font-weight: bold;
+		margin-right: 5px;
+	}
+	.comment__published{
+		color: #898989;
+		font-size: 12px;
+	}
+	&.comment__response{
+		color: #0f71b3;
+		margin-left: 21px;
+		padding-left: 10px;
+		border-left: 1px solid #9fc6e1;
+		p{
+			margin-bottom: 1em;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	&.comment_tab{
+		margin-left: 62px;
+	}
+}
 
 
 
