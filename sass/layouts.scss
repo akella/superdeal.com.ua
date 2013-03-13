@@ -2,8 +2,7 @@
 
 /* default layout */
 .l{
-	width: 100%;
-	display: inline-block;
+	@extend %clr;
 
 	.l-col1{
 		float:left;

@@ -1,8 +1,8 @@
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 * { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
 
@@ -57,16 +57,16 @@ a { color: #3383ae; }
 .content { position: relative; background: #fff; box-shadow: -4px 0 4px -4px rgba(0, 0, 0, 0.3), 4px 0 4px -4px rgba(0, 0, 0, 0.3); padding: 14px 18px 30px 18px; }
 .content:before { content: ''; background: url('../img/icons-sa1098fc7b9.png') 0 -4309px no-repeat; width: 971px; height: 6px; position: absolute; top: -1px; left: -15px; display: inline-block; }
 
-.checkout__personal-data input, .present .present__input { padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; vertical-align: middle; }
+.form_contact textarea, .checkout__personal-data input, .present .present__input { padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; vertical-align: middle; }
 
 .external { color: #898989; }
 .external:after { content: ' '; display: inline-block; background: url('../img/icons-sa1098fc7b9.png') 0 -4863px no-repeat; width: 10px; height: 9px; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 .topper { background-color: #363636; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM2MzYzNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1MjUyNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #363636), color-stop(100%, #252525)); background-image: -webkit-linear-gradient(#363636, #252525); background-image: -moz-linear-gradient(#363636, #252525); background-image: -o-linear-gradient(#363636, #252525); background-image: -ms-linear-gradient(#363636, #252525); background-image: linear-gradient(#363636, #252525); box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); font-size: 12px; }
 .topper .topper__content { position: relative; height: 36px; z-index: 200; }
@@ -168,9 +168,9 @@ a { color: #3383ae; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 html, body { height: 100%; }
 
@@ -212,12 +212,11 @@ html, body { height: 100%; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 /* default layout */
-.l { width: 100%; display: inline-block; }
 .l .l-col1 { float: left; width: 520px; }
 .l.l_static .l-col1 { width: 635px; }
 .l .l-col2 { float: right; width: 288px; }
@@ -225,9 +224,9 @@ html, body { height: 100%; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 .overlay { position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.3); z-index: 1000; display: none; }
 
@@ -284,9 +283,9 @@ html, body { height: 100%; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 .offers { margin-right: -18px; position: relative; }
 .offers .offer { float: left; margin: 0 18px 18px 0; }
@@ -355,9 +354,9 @@ html, body { height: 100%; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 .deal { margin-bottom: 23px; position: relative; padding: 19px; }
 .deal .deal__left { float: left; width: 460px; padding-right: 22px; border-right: 1px dotted #b5d0e2; }
@@ -523,9 +522,9 @@ html, body { height: 100%; }
 
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 .subnav { padding: 7px 0; }
 .subnav ul { list-style: none; }
@@ -567,11 +566,28 @@ html, body { height: 100%; }
 .linkmore.linkmore_alt strong { color: #075f97; }
 .linkmore.linkmore_alt span { font-weight: normal; color: #898989; }
 
+.contactform { padding: 18px 0; border: 1px solid #d0d8dd; border-radius: 6px; position: relative; z-index: 10; background: #fff; }
+.contactform .contactform__right { float: right; padding-left: 20px; border-left: 1px dotted #b2cee1; width: 200px; margin-right: 10px; }
+.contactform .contactform__right dt { font-weight: bold; margin-bottom: 4px; }
+.contactform .contactform__right dd { margin-bottom: 5px; }
+.contactform .contactform__right a { font-size: 12px; }
+.contactform .contactform__left { width: 608px; float: left; padding-top: 18px; }
+.contactform .select { width: 350px; }
+.contactform .select input { width: 330px; }
+
+.weird-background-image { background: url(../img/weird.jpg) no-repeat 100% 100%; min-height: 188px; position: relative; top: 3px; }
+
+.form_contact { margin-left: 24px; }
+.form_contact textarea { width: 590px; height: 100px; padding: 5px 10px; color: #777; }
+.form_contact textarea:focus { color: #000; }
+.form_contact .form__row { margin-bottom: 14px; }
+.form_contact .form__submit { margin-top: 23px; }
+
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.location .location__content, .footer .footer__wrap, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .payment { *zoom: 1; }
-.location .location__content:before, .footer .footer__wrap:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { content: " "; display: table; }
-.location .location__content:after, .footer .footer__wrap:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .payment:after { clear: both; }
+.location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment { *zoom: 1; }
+.location .location__content:before, .footer .footer__wrap:before, .l:before, .offers:before, .megasocials:before, .deal:before, .deal .deal__prices:before, .deal .deal__timeleftwrap:before, .deal .deal__size:before, .deal .deal__wrap:before, .deal .deal__buttons:before, .gallery:before, .place:before, .contactform:before, .payment:before, .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { content: " "; display: table; }
+.location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after { clear: both; }
 
 .checkout__wrap { padding: 13px 20px 20px 20px; }
 

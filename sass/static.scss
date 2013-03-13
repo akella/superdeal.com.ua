@@ -167,3 +167,69 @@
 		}
 	}
 }
+
+.contactform{
+	@extend %clr;
+	padding: 18px 0;
+	border: 1px solid #d0d8dd;
+	border-radius: 6px;
+	position: relative;
+	z-index: 10;
+	background: #fff;
+	.contactform__right{
+		float: right;
+		padding-left: 20px;
+		border-left: 1px dotted #b2cee1;
+		width: 200px;
+		margin-right: 10px;
+		dt{
+			font-weight: bold;
+			margin-bottom: 4px;
+		}
+		dd{
+			margin-bottom: 5px;
+		}
+		a{
+			font-size: 12px;
+		}
+	}
+	.contactform__left{
+		width: 608px;
+		float: left;
+		padding-top: 18px;
+	}
+	.select{
+		width: 350px;
+		input{
+			width: 330px;
+		}
+	}
+}
+.weird-background-image{
+	background: url(../img/weird.jpg) no-repeat 100% 100%;
+	min-height: 188px;
+	position: relative;
+	top: 3px;
+}
+.weird-background-image{
+	
+}
+.form_contact{
+	margin-left: 24px;
+	textarea{
+		width: 590px;
+		height: 100px;
+		padding: 5px 10px;
+		@extend %input;
+		color: #777;
+		&:focus{
+			color: #000;
+		}
+	}
+	.form__row{
+		margin-bottom: 14px;
+	}
+	.form__submit{
+		margin-top: 23px;
+	}
+}
