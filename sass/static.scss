@@ -30,9 +30,53 @@
 	}
 }
 
-
+.callus{
+	margin-left: 47px;
+	h3{
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 14px;
+	}
+	.callus__phone{
+		color: #444b50;
+		font-size: 24px;
+		position: relative;
+		line-height: 1;
+		&:before{
+			position: absolute;
+			content: ' ';
+			left: -21px;
+			top: 2px;
+			@include sized-sprite($icons, phone);
+		}
+	}
+	.callus__hours{
+		margin-top: 17px;
+		color: #898989;
+		font-size: 13px;
+		border-radius: 6px;
+		font-weight: bold;
+		display: inline-block;
+		border: 1px solid #d8dfe3;
+		padding: 3px 8px;
+	}
+}
 .social-block{
 	margin-bottom: 23px;
+}
+.map{
+	margin-top: 20px;
+	h3{
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+	p{
+		margin-bottom: 10px;
+	}
+	h3,p{
+		margin-left: 20px;
+	}
 }
 
 .helpme{
