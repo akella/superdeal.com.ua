@@ -207,6 +207,7 @@
 	&.payment_alt{
 		.payment__item{
 			width: 95px;
+			width: 88px;
 			margin-right: 0;
 			border: none;
 			background: transparent;
@@ -252,7 +253,7 @@
 				padding-top: 3px;
 			}
 		}
-		@each $s in visa, privat, bank, terminal, interkassa, webmoney, liqpay{
+		@each $s in visa, privat, bank, terminal, interkassa, webmoney, liqpay,sms{
 			.payment__#{$s} .payment__icon{
 				@include sized-sprite($icons, c1-#{$s});
 			}

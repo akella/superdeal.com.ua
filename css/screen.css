@@ -653,6 +653,7 @@ html, body { height: 100%; }
 .payment.payment_alt .payment__interkassa .payment__icon { background: url('../img/icons-sa1098fc7b9.png') 0 -2499px no-repeat; width: 30px; height: 52px; }
 .payment.payment_alt .payment__webmoney .payment__icon { background: url('../img/icons-sa1098fc7b9.png') 0 -1753px no-repeat; width: 26px; height: 52px; }
 .payment.payment_alt .payment__liqpay .payment__icon { background: url('../img/icons-sa1098fc7b9.png') 0 -226px no-repeat; width: 90px; height: 52px; }
+.payment.payment_alt .payment__sms .payment__icon { background: url('../img/icons-sa1098fc7b9.png') 0 -4442px no-repeat; width: 14px; height: 52px; }
 .payment.payment_alt .payment__bonuses { background: #f3fafc; border-radius: 6px; border: 1px solid #c2c8c9; margin-left: 10px; height: auto; padding-bottom: 14px; }
 
 .printfile h3 { font-size: 14px; color: #333; margin-bottom: 10px; }
