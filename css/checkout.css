@@ -50,7 +50,7 @@
 .payment .payment__interkassa .payment__icon { background: url('../img/icons-sa1098fc7b9.png') 0 -1303px no-repeat; width: 37px; height: 51px; }
 .payment .payment__webmoney .payment__icon { background: url('../img/icons-sa1098fc7b9.png') 0 -161px no-repeat; width: 54px; height: 55px; }
 .payment .payment__liqpay .payment__icon { background: url('../img/icons-sa1098fc7b9.png') 0 -288px no-repeat; width: 85px; height: 26px; }
-.payment.payment_alt .payment__item { width: 95px; width: 88px; margin-right: 0; border: none; background: transparent; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; position: relative; cursor: pointer; }
+.payment.payment_alt .payment__item { width: 95px; width: 86px; margin-right: 0; border: none; background: transparent; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; position: relative; cursor: pointer; }
 .payment.payment_alt .payment__item:hover { background: transparent; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 .payment.payment_alt .payment__item label { cursor: pointer; }
 .payment.payment_alt .payment__help { top: -2px; right: -2px; }
