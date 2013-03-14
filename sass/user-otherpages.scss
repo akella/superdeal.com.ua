@@ -1,0 +1,46 @@
+@import "base";
+
+.userdata__success{
+	background: #dae9d1;
+	margin-bottom: 20px;
+	padding: 16px 15px;
+	font-weight: bold;
+}
+
+//@extend %input;
+
+.form__row_alt{
+	overflow: hidden;
+	input{
+		@extend %input;
+		width: 236px;
+		display: block;
+		margin-bottom: 7px;
+	}
+}
+	.form__col_left{
+		float: left;
+		width: 169px;
+		text-align: right;
+		margin-right: 30px;
+	}
+	.form__col_right{
+		overflow: hidden;
+	}
+		.form__info_alt{
+			color: #777778;
+			height: 30px;
+			line-height: 30px;
+		}
+.form__row_btn{
+	margin: 27px 0 31px 199px;
+}
+	.form__text_alt{
+		display: inline;
+		margin-left: 20px;
+		font-weight: bold;
+		font-size: 16px;
+		a{
+			color: #000;
+		}
+	}

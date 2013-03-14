@@ -29,7 +29,7 @@
 .help .help__content:before { content: " "; position: absolute; background: url('../img/icons-s75e83de807.png') 0 -4985px no-repeat; width: 10px; height: 5px; top: -5px; left: 14px; }
 .help:hover .help__content { display: block; }
 
-.userdata { background: #f9fbfc; margin-bottom: 16px; }
+.userdata { background: #fff; margin-bottom: 16px; }
 .userdata .userdata__header { margin-bottom: 17px; }
 .userdata .userdata__header h1, .userdata .userdata__header .friends .friends__header, .friends .userdata .userdata__header .friends__header { display: inline-block; width: 270px; color: #222; font-size: 24px; }
 .userdata .userdata__header h1 a, .userdata .userdata__header .friends .friends__header a, .friends .userdata .userdata__header .friends__header a { color: #222; text-decoration: underline; }

@@ -6,12 +6,12 @@
 .subnav ul { list-style: none; }
 .subnav ul a { display: block; font-size: 16px; font-weight: bold; color: #000; text-decoration: none; padding: 4px 0 4px 20px; position: relative; }
 .subnav ul a.is-active { background: #acd373; }
-.subnav ul a.is-active:before { content: ' '; position: absolute; margin-top: -10px; top: 50%; left: -12px; background: url('../img/icons-sa1098fc7b9.png') 0 -4230px no-repeat; width: 12px; height: 21px; }
+.subnav ul a.is-active:before { content: ' '; position: absolute; margin-top: -10px; top: 50%; left: -12px; background: url('../img/icons-s75e83de807.png') 0 -4309px no-repeat; width: 12px; height: 21px; }
 
 .callus { margin-left: 47px; }
 .callus h3 { font-size: 14px; font-weight: bold; margin-bottom: 14px; }
 .callus .callus__phone { color: #444b50; font-size: 24px; position: relative; line-height: 1; }
-.callus .callus__phone:before { position: absolute; content: ' '; left: -21px; top: 2px; background: url('../img/icons-sa1098fc7b9.png') 0 -3598px no-repeat; width: 18px; height: 17px; }
+.callus .callus__phone:before { position: absolute; content: ' '; left: -21px; top: 2px; background: url('../img/icons-s75e83de807.png') 0 -3652px no-repeat; width: 18px; height: 17px; }
 .callus .callus__hours { margin-top: 17px; color: #898989; font-size: 13px; border-radius: 6px; font-weight: bold; display: inline-block; border: 1px solid #d8dfe3; padding: 3px 8px; }
 
 .social-block { margin-bottom: 23px; }
