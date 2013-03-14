@@ -141,6 +141,7 @@ a{
 	line-height: 26px;
 	padding: 0 14px;
 	text-decoration: none;
+	cursor: pointer;
 	&:hover{
 		background-color: #4ba109;
 		@include box-shadow(inset 0 1px 1px rgba(255,255,255,.3));
@@ -150,6 +151,10 @@ a{
 		background-color: #4ba109;
 		@include box-shadow(inset 0 1px 1px rgba(255,255,255,.3));
 		@include background-image(linear-gradient(bottom, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%));
+	}
+	&.is-disabled{
+		opacity: .5;
+		cursor: default;
 	}
 	.greenbutton__arrow{
 		@include sized-sprite($icons, arrowright);
@@ -173,6 +178,14 @@ a{
 	padding: 0 20px;
 	font-size: 16px;
 }
+.yellowbutton{
+	@extend %greenbutton;
+	color: #111;
+	border: 1px solid #e6d500;
+	background-color: #fff100;
+	@include box-shadow(inset 0 1px 0 rgba(255,255,255,.4));
+	@include background-image(linear-gradient(bottom, #fff800 0%, #ffe600 100%));
+}
 %h2{
 	font-size: 21px;
 	font-weight: bold;
@@ -192,6 +205,9 @@ a{
 	margin-bottom: 8px;
 	&.h1_margin{
 		margin-left: 10px;
+	}
+	&.h1_marginbig{
+		margin-left: 25px;
 	}
 }
 .h1{@extend %h1;}

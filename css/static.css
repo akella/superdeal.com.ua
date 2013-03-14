@@ -51,7 +51,7 @@
 .contactform .select { width: 350px; }
 .contactform .select input { width: 330px; }
 
-.weird-background-image { background: url(../img/weird.jpg) no-repeat 100% 100%; min-height: 188px; position: relative; top: 3px; }
+.weird-background-image { background: url(../img/weird.jpg) no-repeat 100% 100%; min-height: 188px; position: relative; top: 3px; left: 26px; }
 
 .form_contact { margin-left: 24px; }
 .form_contact textarea { width: 590px; height: 100px; padding: 5px 10px; color: #777; }
