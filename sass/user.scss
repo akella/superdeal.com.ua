@@ -250,6 +250,33 @@
 			color: #111;
 		}
 	}
+	.coupons__nav{
+		position: relative;
+		float: right;
+		margin-top: 6px;
+		font-size: 12px;
+		text-align: right;
+		white-space: nowrap;
+		z-index: 10;
+		a{
+			display: inline-block;
+			padding: 5px 7px;
+			line-height: 1;
+			color: #898989;
+			border-radius: 6px;
+			text-decoration: none;
+		}
+		span{
+			border-bottom: 1px dotted #898989;
+		}
+		.active{
+			color: #111;
+			background: #e6e8e9;
+			span{
+				border: none;
+			}
+		}
+	}
 }
 .coupon{
 	@extend %blueblock;
@@ -399,6 +426,7 @@
 .friends{
 	@extend %blueblock;
 	background: #fff;
+	margin-top: 30px;
 	.friends__header{
 		@extend h1;
 		margin-bottom: 10px;

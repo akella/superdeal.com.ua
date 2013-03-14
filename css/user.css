@@ -50,6 +50,11 @@
 
 .coupons .coupons__header { margin-left: 20px; margin-bottom: 6px; }
 .coupons .coupons__header a { text-decoration: underline; color: #111; }
+.coupons .coupons__nav { position: relative; float: right; margin-top: 6px; font-size: 12px; text-align: right; white-space: nowrap; z-index: 10; }
+.coupons .coupons__nav a { display: inline-block; padding: 5px 7px; line-height: 1; color: #898989; border-radius: 6px; text-decoration: none; }
+.coupons .coupons__nav span { border-bottom: 1px dotted #898989; }
+.coupons .coupons__nav .active { color: #111; background: #e6e8e9; }
+.coupons .coupons__nav .active span { border: none; }
 
 .coupon { background: #fff; margin-bottom: 20px; }
 .coupon.coupon_payed { background-color: #f9fbf3; }
@@ -84,7 +89,7 @@
 .coupon .coupon__present span { font-size: 12px; color: #7d7d7d; margin-left: 5px; }
 .coupon .green { color: #559a20; }
 
-.friends { background: #fff; }
+.friends { background: #fff; margin-top: 30px; }
 .friends .friends__header { margin-bottom: 10px; }
 .friends .friends__header a { color: #111; }
 .friends p { margin-bottom: 1em; }
