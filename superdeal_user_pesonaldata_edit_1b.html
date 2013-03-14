@@ -132,25 +132,61 @@
 						
 						<!-- BEGIN  userdata-->
 						<div class="userdata">
-							<div class="userdata__header">
-								<h1 class="h1">Изменение пароля</h1>
+							<div class="userdata__header userdata__header_long">
+								<h1 class="h1">Редактирование личных данных</h1>
 							</div>
 							<form action="/" class="form">
 								<div class="formline">
-									<label>Текущий пароль</label>
+									<label>Имя</label>
 									<div class="formline__right">
-										<input type="text" name="" placeholder="">
+										<input type="text" name="" placeholder="" value="Валентин Шевченко">
 									</div>
 								</div>
 								<div class="formline">
-									<label>Новый пароль</label>
+									<label>Пол</label>
 									<div class="formline__right">
-										<input type="text" name="" placeholder="">
-										<input type="text" name="" placeholder="Новый пароль повторно">
+										<div class="input-wrap">
+											<input type="radio" id="not-specified" name="radio1" placeholder="" value="" checked>
+											<label for="not-specified">не указан</label>
+										</div>
+										<div class="input-wrap">
+											<i class="male"></i>
+											<input type="radio" id="male" name="radio1" placeholder="" value="">
+											<label for="male">мужской</label>
+										</div>
+										<div class="input-wrap">
+											<i class="female"></i>
+											<input type="radio" id="female" name="radio1" placeholder="" value="">
+											<label for="female">женский</label>
+										</div>
+									</div>
+								</div>
+								<div class="formline">
+									<label>E-mail</label>
+									<div class="formline__right">
+										<input type="text" name="" placeholder="" value="v.shevchenko@mail.com">
+									</div>
+								</div>
+								<div class="formline">
+									<label>Телефон</label>
+									<div class="formline__right">
+										<input type="text" name="" placeholder="" value="+380 11 123-45-67">
+									</div>
+								</div>
+								<div class="formline">
+									<label>Город</label>
+									<div class="formline__right">
+										<div class="select">
+											<select>
+												<option value="">Киев</option>
+											</select>
+											<input type="text" class="select__value" placeholder="Киев">
+											<i></i>
+										</div>
 									</div>
 								</div>
 								<div class="formline__btn">
-								<a href="#" class="button">Сохранить</a> 
+								<a href="#" class="button">Сохранить</a>
 								<div class="formline__text"><a href="#">Отменить</a></div>
 								</div>
 							</form>

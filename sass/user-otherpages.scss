@@ -7,40 +7,69 @@
 	font-weight: bold;
 }
 
-//@extend %input;
+.input-wrap{
+	position: relative;
+	display: inline-block;
+	i{
+		position: absolute;
+		content: "";
+		&.male{
+			top: 5px;
+			left: 10px;
+			@include sized-sprite($icons, gender_male);
+		}
+		&.female{
+			top: 21px;
+			left: 2px;
+			@include sized-sprite($icons, gender_female);
+		}
+	}
+}
 
-.form__row_alt{
-	overflow: hidden;
+.formline{
 	input{
 		@extend %input;
 		width: 236px;
 		display: block;
 		margin-bottom: 7px;
 	}
-}
-	.form__col_left{
-		float: left;
+	input[type="radio"]{
+		display: inline-block;
+		width: auto;
+	}
+	label{
+		color: #777778;
 		width: 169px;
+		float: left;
 		text-align: right;
 		margin-right: 30px;
+		height: 30px;
+		line-height: 30px;
 	}
-	.form__col_right{
-		overflow: hidden;
-	}
-		.form__info_alt{
-			color: #777778;
-			height: 30px;
-			line-height: 30px;
-		}
-.form__row_btn{
-	margin: 27px 0 31px 199px;
 }
-	.form__text_alt{
-		display: inline;
-		margin-left: 20px;
-		font-weight: bold;
-		font-size: 16px;
-		a{
+	.formline__right{
+		overflow: hidden;
+		width: 258px;
+		label{
+			text-align: left;
+			float: none;
+			width: auto;
+			margin-right: 9px;
 			color: #000;
+			height: 30px;
+			vertical-align: top;
+			display: inline-block;
 		}
 	}
+	.formline__btn{
+		margin: 27px 0 31px 199px;
+	}
+		.formline__text{
+			display: inline;
+			margin-left: 20px;
+			font-weight: bold;
+			font-size: 16px;
+			a{
+				color: #000;
+			}
+		}

@@ -1,15 +1,18 @@
 .userdata__success { background: #dae9d1; margin-bottom: 20px; padding: 16px 15px; font-weight: bold; }
 
-.form__row_alt { overflow: hidden; }
-.form__row_alt input { width: 236px; display: block; margin-bottom: 7px; }
+.input-wrap { position: relative; display: inline-block; }
+.input-wrap i { position: absolute; content: ""; }
+.input-wrap i.male { top: 5px; left: 10px; background: url('../img/icons-s9c03d52c2e.png') 0 -4794px no-repeat; width: 6px; height: 6px; }
+.input-wrap i.female { top: 21px; left: 2px; background: url('../img/icons-s9c03d52c2e.png') 0 -5001px no-repeat; width: 8px; height: 6px; }
 
-.form__col_left { float: left; width: 169px; text-align: right; margin-right: 30px; }
+.formline input { width: 236px; display: block; margin-bottom: 7px; }
+.formline input[type="radio"] { display: inline-block; width: auto; }
+.formline label { color: #777778; width: 169px; float: left; text-align: right; margin-right: 30px; height: 30px; line-height: 30px; }
 
-.form__col_right { overflow: hidden; }
+.formline__right { overflow: hidden; width: 258px; }
+.formline__right label { text-align: left; float: none; width: auto; margin-right: 9px; color: #000; height: 30px; vertical-align: top; display: inline-block; }
 
-.form__info_alt { color: #777778; height: 30px; line-height: 30px; }
+.formline__btn { margin: 27px 0 31px 199px; }
 
-.form__row_btn { margin: 27px 0 31px 199px; }
-
-.form__text_alt { display: inline; margin-left: 20px; font-weight: bold; font-size: 16px; }
-.form__text_alt a { color: #000; }
+.formline__text { display: inline; margin-left: 20px; font-weight: bold; font-size: 16px; }
+.formline__text a { color: #000; }

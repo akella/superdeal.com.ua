@@ -36,6 +36,7 @@
 .userdata .userdata__header .userdata__edit, .userdata .userdata__header .userdata__change { margin-right: 50px; color: #1694c7; position: relative; line-height: 1; display: inline-block; vertical-align: text-bottom; }
 .userdata .userdata__header .userdata__edit i, .userdata .userdata__header .userdata__change i { position: absolute; left: -20px; top: -2px; display: inline-block; background: url('../img/icons-s75e83de807.png') 0 -4261px no-repeat; width: 16px; height: 15px; }
 .userdata .userdata__header .userdata__change i { background: url('../img/icons-s75e83de807.png') 0 -4340px no-repeat; width: 14px; height: 14px; }
+.userdata .userdata__header_long h1, .userdata .userdata__header_long .friends .friends__header, .friends .userdata .userdata__header_long .friends__header { width: 100%; }
 .userdata .userdata__sep { margin-bottom: 15px; border-top: 1px dotted #b2cee0; margin-top: 5px; }
 .userdata .userdata__data { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .userdata .userdata__data th { text-align: left; width: 270px; font-weight: normal; color: #555; padding-bottom: 13px; vertical-align: top; }
