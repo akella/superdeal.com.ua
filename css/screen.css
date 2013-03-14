@@ -812,6 +812,26 @@ html, body { height: 100%; }
 .formline__text { display: inline; margin-left: 20px; font-weight: bold; font-size: 16px; }
 .formline__text a { color: #000; }
 
+.userdata__report .userdata__report-row { height: 18px; line-height: 18px; display: inline-block; margin-bottom: 17px; }
+.userdata__report .userdata__report-name { float: left; width: 280px; margin-right: 20px; text-align: right; color: #777778; }
+.userdata__report .userdata__report-value { overflow: hidden; font-weight: bold; font-size: 18px; }
+
+.userdata__invite h2 { font-size: 18px; padding-bottom: 22px; text-align: left; }
+.userdata__invite .userdata__heading { font-size: 14px; margin: 0 0 13px; padding: 0; }
+.userdata__invite h3 { font-size: 14px; margin-bottom: 12px; }
+.userdata__invite table { font-size: 12px; }
+.userdata__invite table th { border-bottom: 1px dotted #b2cee0; padding-bottom: 10px; }
+.userdata__invite table td { padding-top: 10px; }
+.userdata__invite table em { color: #5dab22; }
+.userdata__invite table strong { font-size: 12px; }
+.userdata__invite table .userdata__invite-bonus { text-align: right; }
+.userdata__invite .userdata__invite-unroll { color: #138bc1; font-size: 12px; line-height: 1.3; border-bottom: 1px dotted #138bc1; text-decoration: none; display: inline-block; margin-top: 13px; margin-bottom: 30px; }
+.userdata__invite .userdata__invite-unroll:hover { border-bottom: 1px dotted transparent; }
+.userdata__invite .userdata__invite-send { margin-bottom: 35px; }
+.userdata__invite .userdata__invite-send code { display: block; font-weight: normal; padding: 8px 10px; }
+
+.userdata__socials ul { margin: 0; }
+
 .lteie8 .location li a b span { display: none; }
 .lteie8 .location li a:hover b span { display: block; border-color: #88a0b1; }
 .lteie8 .topper__other .hsocials *, .lteie8 .topper__other .topper__nav *, .lteie8 .topper__other .topper__help, .lteie8 .topper__other .hsocials, .lteie8 .topper__other .topper__nav, .lteie8 .topper__other .profile, .lteie8 .topper__other .profile__meta, .lteie8 .topper__other .profile__user, .lteie8 .topper__other .profile, .lteie8 .topper__other .profile__meta *, .lteie8 .topper__other .profile__user * { display: inline !important; }
