@@ -2,8 +2,8 @@
 
 .input-wrap { position: relative; display: inline-block; }
 .input-wrap i { position: absolute; content: ""; }
-.input-wrap i.male { top: 5px; left: 10px; background: url('../img/icons-s9c03d52c2e.png') 0 -4794px no-repeat; width: 6px; height: 6px; }
-.input-wrap i.female { top: 21px; left: 2px; background: url('../img/icons-s9c03d52c2e.png') 0 -5001px no-repeat; width: 8px; height: 6px; }
+.input-wrap i.male { top: 5px; left: 10px; background: url('../img/icons-se02f705b4d.png') 0 -4823px no-repeat; width: 6px; height: 6px; }
+.input-wrap i.female { top: 21px; left: 2px; background: url('../img/icons-se02f705b4d.png') 0 -5030px no-repeat; width: 8px; height: 6px; }
 
 .formline input { width: 236px; display: block; margin-bottom: 7px; }
 .formline input[type="radio"] { display: inline-block; width: auto; }
@@ -36,3 +36,23 @@
 .userdata__invite .userdata__invite-send code { display: block; font-weight: normal; padding: 8px 10px; }
 
 .userdata__socials ul { margin: 0; }
+
+.mark { color: #bd4939; }
+
+.popup_alt { width: 290px; margin-left: -175px; }
+
+.sep { margin-bottom: 25px; border-top: 1px dotted #b2cee0; margin-top: 45px; }
+
+.popup__invite { overflow: hidden; }
+.popup__invite li { list-style: none; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 18px; }
+.popup__invite li:last-child { margin-bottom: 0; }
+.popup__invite a { color: #2a72a8; text-decoration: none; }
+.popup__invite a:hover { text-decoration: underline; }
+
+.popup__userpic { overflow: hidden; position: relative; height: 50px; width: 50px; margin-bottom: 4px; }
+.popup__userpic i { display: none; }
+.popup__userpic.is-selected { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 3px solid #075f97; background: rgba(7, 95, 151, 0.5); }
+.popup__userpic.is-selected i { display: block; position: absolute; bottom: -1px; right: -2px; background: url('../img/icons-se02f705b4d.png') 0 -4412px no-repeat; width: 19px; height: 19px; content: ""; }
+.popup__userpic img { min-height: 50px; max-width: 50px; position: relative; z-index: -1; }
+
+.popup__username { text-align: center; width: 50px; display: block; overflow: hidden; text-overflow: ellipsis; color: #2a72a8; font-size: 10px; }
