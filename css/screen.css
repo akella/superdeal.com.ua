@@ -838,6 +838,8 @@ html, body { height: 100%; }
 
 .sep { margin-bottom: 25px; border-top: 1px dotted #b2cee0; margin-top: 45px; }
 
+.sep_alt { margin-top: 25px; }
+
 .popup__invite { overflow: hidden; }
 .popup__invite li { list-style: none; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 18px; }
 .popup__invite li:last-child { margin-bottom: 0; }
