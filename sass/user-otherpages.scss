@@ -174,11 +174,14 @@
 	margin-bottom: 25px;
 	border-top: 1px dotted #b2cee0;
 	margin-top: 45px;
+	clear: both;
 }
 .sep_alt{
 	margin-top: 25px;
 }
-
+.sep_balance{
+	margin: 0 20px;
+}
 .popup__invite{
 	overflow: hidden;
 	li{
@@ -237,3 +240,28 @@
 		color: #2a72a8;
 		font-size: 10px;
 	}
+
+
+.userdata_alt, .balance_alt{
+	background: none;
+	border: none;
+	border-radius: none;
+	box-shadow: none;
+}
+
+	.balance_alt{
+		border-left: 1px dotted #b2cee0;
+		margin-top: 20px;
+		padding-top: 0;
+	}
+
+.l_alt{
+	border: 1px solid #C2C8C9;
+	border-radius: 6px;
+	background: #e8f5fa;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.userdata__balance-btn{
+	text-align: center;
+}
