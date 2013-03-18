@@ -265,3 +265,45 @@
 .userdata__balance-btn{
 	text-align: center;
 }
+
+.benefits_alt{
+	padding: 15px 0 20px 0;
+}
+	.benefits_alt__text{
+		font-size: 18px;
+		font-weight: bold;
+		color: #fff;
+		padding: 0 30px;
+	}
+
+.deal__text{
+	font-size: 15px;
+	color: #252525;
+	font-weight: bold;
+	margin-right: 90px;
+	margin-bottom: 10px;
+}
+.deal.deal_alt{
+	.deal__right{
+		margin-top: 10px;
+		.formline{
+			input{
+				margin-bottom: 10px;
+			}
+		}
+		.socials{
+			margin-top: 10px;
+			dt{
+				font-size: 18px;
+			}
+		}
+	}
+}
+.deal__auth{
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	a{
+		color: #252525;
+	}
+}
