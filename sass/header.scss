@@ -334,6 +334,39 @@
 		box-shadow:0 0 3px rgba(#000,0.3);
 		height: 48px;
 	}
+	&.header_cart{
+		.header__banner{
+			right: 75px + 16px;
+			width: 676px - 16px - 75px;
+		}
+	}
+	.cart{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 75px;
+		border-radius: 6px;
+		height: 48px;
+		line-height: 48px;
+		background: #f6fbf6;
+		box-shadow:0 -1px 0 #d8dfe3, 0 1px 0 rgba(#000,0.2);
+		.cart__icon{
+			position: absolute;
+			top: 16px;
+			left: 9px;
+			@include sized-sprite($icons, cart); 
+			padding-left: 2px;
+		}
+		.cart__number{
+			position: absolute;
+			left: 34px;
+			top: 16px;
+			font-size: 12px;
+			line-height: 20px;
+			text-align: center;
+			@include sized-sprite($icons, cartbg);
+		}
+	}
 }
 .invite-friend{
 	text-decoration: none;
