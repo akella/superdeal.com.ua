@@ -829,7 +829,7 @@ html, body { height: 100%; }
 .formline .formline__note { display: inline-block; vertical-align: middle; font-size: 12px; color: #555; }
 .formline .formline__textarea { width: 440px; height: 100px; }
 
-.formline__right { overflow: hidden; width: 258px; }
+.formline__right { display: table; width: 258px; }
 .checkout__wrap .formline__right { width: auto; }
 .formline__right label { text-align: left; float: none; width: auto; margin-right: 9px; color: #000; height: 30px; vertical-align: top; display: inline-block; }
 

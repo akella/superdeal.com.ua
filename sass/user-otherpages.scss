@@ -69,7 +69,7 @@
 	}
 }
 	.formline__right{
-		overflow: hidden;
+		display:table;
 		width: 258px;
 		.checkout__wrap &{
 			width: auto;
