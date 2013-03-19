@@ -24,7 +24,7 @@
 			margin-left: 0;
 		}
 		&:hover{
-			text-decoration: none;
+			text-decoration: none; 
 		}
 	}
 }
@@ -118,17 +118,44 @@
 		@include sized-sprite($icons, print_sep);
 	}
 
-	.highlight{
+	.gift{
+		position: relative;
 		text-align: center;
-		font-family: Georgia, "Century Schoolbook L", Serif;
-		font-size: 17px;
-		font-weight: bold;
-		font-style: italic;
-		margin-top: 25px;
-		color: #3d3d3d;
-		padding: 0 45px;
+		margin: 35px 20px -5px;
+		height: 145px;
+		padding: 27px 100px 30px;
+		border: 1px solid #e7eded;
+		@include border-radius(7px);
+		@include background-clip(padding-box);
+		background-color: #fff;
+		@include box-shadow(0 0 5px rgba(70,55,55,.28));
+		@include background-image(linear-gradient(bottom, #f9f8f6 0%, #fff 100%));
+		&:before{
+			position: absolute;
+			content: "";
+			top: -28px;
+			left: -17px;
+			@include sized-sprite($icons, gift);
+		}
 	}
-
+		.gift__title{
+			text-transform: uppercase;
+			color: #ef4449;
+			font-style: normal;
+			font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+			font-size: 12px;
+			font-weight: bold;
+			margin-bottom: 15px;
+			letter-spacing: 3px;
+		}
+		.gift__text{
+			font-family: Georgia, "Century Schoolbook L", Serif;
+			font-size: 15px;
+			line-height: 1.6;
+			font-weight: bold;
+			font-style: italic;
+			color: #3d3d3d;
+		}
 
 .text{
 	padding: 20px 20px 30px;
