@@ -69,9 +69,10 @@
 .header .header__logo a { background: url('../img/icons-s5af7a876b3.png') 0 0 no-repeat; width: 271px; height: 61px; position: absolute; top: -1px; left: -23px; }
 .header .header__banner { width: 676px; position: absolute; right: 0; top: 0; border-radius: 6px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); height: 48px; }
 .header.header_cart .header__banner { right: 91px; width: 585px; }
-.header .cart { position: absolute; top: 0; right: 0; width: 75px; border-radius: 6px; height: 48px; line-height: 48px; background: #f6fbf6; box-shadow: 0 -1px 0 #d8dfe3, 0 1px 0 rgba(0, 0, 0, 0.2); }
+.header .cart { position: absolute; top: 0; right: 0; width: 75px; border-radius: 6px; height: 48px; line-height: 48px; background: #f6fbf6; box-shadow: 0 -1px 0 #d8dfe3, 0 1px 0 rgba(0, 0, 0, 0.2); cursor: pointer; }
 .header .cart .cart__icon { position: absolute; top: 16px; left: 9px; background: url('../img/icons-s5af7a876b3.png') 0 -5283px no-repeat; width: 21px; height: 19px; padding-left: 2px; }
 .header .cart .cart__number { position: absolute; left: 34px; top: 16px; font-size: 12px; line-height: 20px; text-align: center; background: url('../img/icons-s5af7a876b3.png') 0 -5312px no-repeat; width: 28px; height: 20px; }
+.header .cart:hover { background: #fff; }
 
 .invite-friend { text-decoration: none; display: block; background: rgba(255, 255, 255, 0.5); border-radius: 6px; height: 46px; line-height: 48px; text-align: center; border: 1px solid #fff; font-size: 16px; color: #2873aa; font-weight: bold; }
 

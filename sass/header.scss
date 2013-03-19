@@ -350,6 +350,7 @@
 		line-height: 48px;
 		background: #f6fbf6;
 		box-shadow:0 -1px 0 #d8dfe3, 0 1px 0 rgba(#000,0.2);
+		cursor: pointer;
 		.cart__icon{
 			position: absolute;
 			top: 16px;
@@ -365,6 +366,9 @@
 			line-height: 20px;
 			text-align: center;
 			@include sized-sprite($icons, cartbg);
+		}
+		&:hover{
+			background: #fff;
 		}
 	}
 }

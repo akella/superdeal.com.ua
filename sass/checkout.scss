@@ -3,15 +3,73 @@
 .checkout__wrap{
 	@extend %box;
 	padding: 13px 20px 20px 20px;
+	.checkout_product &{
+		padding: 20px 0 0 0;
+	}
+	.payment_alt{
+		margin-left: -17px;
+		margin-right: -20px;
+	}
 }
 .selectreplaced{
 	margin-left: 6px;
+}
+.checkout__itogo{
+	text-align: right;
+	padding-top: 8px;
+	font-size: 18px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	strong{
+		margin-left: 12px;
+	}
+}
+.checkout__pay{
+	margin-top: 20px;
+	text-align: right;
 }
 .checkout__table{
 	width: 100%;
 	border-spacing:0;
 	border-collapse:collapse;
 	margin-bottom:12px;
+	.checkout_product &{
+		td,th{
+			padding-left: 20px;
+			vertical-align: middle;
+			border-bottom: 1px dotted #b5d0e2;
+			h3{
+				font-size: 14px;
+				font-weight: bold;
+				margin-bottom: 3px;
+			}
+
+		}
+
+		tr:last-child td{
+			border-bottom: none;
+			padding-bottom: 0;
+		}
+		td:last-child,th:last-child{
+			padding-right: 20px;
+			padding-left: 8px;
+		}
+		tbody td{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		thead th{
+			padding-bottom: 5px;
+		}
+	}
+	.checkout__size{
+		color: #898989;
+	}
+
+	.checkout__delete{
+		display: inline-block;
+		@include sized-sprite($icons, delp);
+	}
 	td{
 		vertical-align: top;
 	}
@@ -148,6 +206,7 @@
 		width: 98px;
 		height: 118px;
 		margin-right: 10px;
+		margin-bottom: 10px;
 		border: 1px solid #879fb3;
 		@include border-radius(5px);
 		background-color: #b6b6b6;
