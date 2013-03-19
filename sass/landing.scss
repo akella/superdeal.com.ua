@@ -1,31 +1,46 @@
 @import "base";
 
 .is-landing{
-	background: none;
-	.page{
+
+	.topper{
+		z-index: 200;
+		position: relative;
+	}
+	.nav{
+		position: absolute;
+		bottom: 36px;
+		left: 20px;
+		box-shadow:0 2px 5px rgba(#000,0.3);
+	}
+	.header{
+		position: absolute;
 		width: 100%;
 	}
 	.header{
-		@extend %site;
-		margin: 15px auto 0;
-		z-index: 10;
+		z-index: 100;
+		top: 50px;
 	}
 	.invite-friend{
 		border: 1px solid rgba(255, 255, 255, 0.5);
 		@include text-shadow(0 1px 0 rgba(255,255,255,.3));
 	}
 	.landing{
-		-webkit-background-size: cover !important;
-		-moz-background-size: cover !important;
-		-o-background-size: cover !important;
-		background-size: cover !important;
+		@include background-size(cover);
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
 		height: 780px;
-		margin-top: -65px;
+		margin-top: -50px;
 		border-bottom: 1px solid #c5c5c5;
 		box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59);
 		position: relative;
 		z-index: 5;
+		.landing__inner{
+			@extend %site;
+			position: relative;
+			height: 100%;
+		}
 	}
+
 		.landing_alt{
 			height: 700px;
 			.current-actions{
@@ -51,12 +66,11 @@
 		.landing__info{
 			position: absolute;
 			top: 226px;
-			left: -21px;
+			left: 0px;
 			padding: 45px 20px;
 			width: 266px;
 			@include border-radius(6px);
-			@include background-clip(padding-box);
-			background: rgba(0, 0, 0, .3);
+			background: rgba(#000, .3);
 			color: #fff;
 		}
 		.landing__discount{
@@ -135,20 +149,20 @@
 			}
 		}
 
-	.content{
-		@extend %site;
-		z-index: 1;
-		&:before{
-			content: none;
-		}
-	}
-	.nav{
-		position: absolute;
-		top: 690px;
-	}
-	.footer{
-		width: 1000px;
-	}
+// 	.content{
+// 		@extend %site;
+// 		z-index: 1;
+// 		&:before{
+// 			content: none;
+// 		}
+// 	}
+// 	.nav{
+// 		position: absolute;
+// 		top: 690px;
+// 	}
+// 	.footer{
+// 		width: 1000px;
+// 	}
 	.current-actions{
 		position: absolute;
 		top: 720px;

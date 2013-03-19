@@ -181,6 +181,36 @@
 			height: 288px;
 		}
 	}
+
+	&.offer_three{
+		width: 286px;
+		height: 250px;
+		.price{
+			padding-top:0;
+			top: auto;
+			height: auto;
+			bottom: 10px;
+			del{
+				position: absolute;
+				top: auto;
+				left: 17px;
+				bottom: 10px;
+				font-size: 12px;
+
+			}
+			.price__actual{
+				right: 10px;
+				left: auto;
+				bottom: 7px;
+				position: absolute;
+			}
+		}
+		.pics,.pics__wrap{
+			width: 287px;
+			height: 170px;
+		}
+	}
+
 }
 .price{
 	@extend %price;

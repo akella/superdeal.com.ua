@@ -1,15 +1,16 @@
-@charset "IBM866";
-.is-landing { background: none; }
-.is-landing .page { width: 100%; }
-.is-landing .header { margin: 15px auto 0; z-index: 10; }
+.is-landing .topper { z-index: 200; position: relative; }
+.is-landing .nav { position: absolute; bottom: 36px; left: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
+.is-landing .header { position: absolute; width: 100%; }
+.is-landing .header { z-index: 100; top: 50px; }
 .is-landing .invite-friend { border: 1px solid rgba(255, 255, 255, 0.5); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3); }
-.is-landing .landing { -webkit-background-size: cover !important; -moz-background-size: cover !important; -o-background-size: cover !important; background-size: cover !important; height: 780px; margin-top: -65px; border-bottom: 1px solid #c5c5c5; box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59); position: relative; z-index: 5; }
+.is-landing .landing { -moz-background-size: cover 100%; -webkit-background-size: cover 100%; background-size: cover 100%; background-repeat: no-repeat; background-position: 50% 50%; height: 780px; margin-top: -50px; border-bottom: 1px solid #c5c5c5; box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59); position: relative; z-index: 5; }
+.is-landing .landing .landing__inner { position: relative; height: 100%; }
 .is-landing .landing_alt { height: 700px; }
 .is-landing .landing_alt .current-actions { top: 605px; }
 .is-landing .landing__container { position: relative; }
 .is-landing .landing__container_alt .landing__info { top: 105px; left: 0; padding: 15px 20px 20px; }
 .is-landing .landing__container_alt .landing__discount { top: 104px; right: -22px; }
-.is-landing .landing__info { position: absolute; top: 226px; left: -21px; padding: 45px 20px; width: 266px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background: rgba(0, 0, 0, 0.3); color: #fff; }
+.is-landing .landing__info { position: absolute; top: 226px; left: 0px; padding: 45px 20px; width: 266px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; background: rgba(0, 0, 0, 0.3); color: #fff; }
 .is-landing .landing__discount { color: #fff; font-size: 27px; font-weight: bold; font-style: italic; font-family: Georgia, "Century Schoolbook L", Serif; position: absolute; top: 226px; right: 0; background: rgba(0, 0, 0, 0.3); width: 160px; height: 180px; text-align: center; -webkit-border-radius: 120px; -moz-border-radius: 120px; -ms-border-radius: 120px; -o-border-radius: 120px; border-radius: 120px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; padding: 60px 40px 0; }
 .is-landing .landing__title { font-size: 18px; font-weight: bold; margin-bottom: 15px; }
 .is-landing .landing__text li { list-style: none; position: relative; }
@@ -24,9 +25,5 @@
 .is-landing .button_landing { margin-top: 19px; padding: 0 50px; }
 .is-landing .landing__auth { margin-top: 23px; }
 .is-landing .landing__auth a { color: #fff; }
-.is-landing .content { z-index: 1; }
-.is-landing .content:before { content: none; }
-.is-landing .nav { position: absolute; top: 690px; }
-.is-landing .footer { width: 1000px; }
 .is-landing .current-actions { position: absolute; top: 720px; width: 898px; padding: 10px 20px; border: 1px solid #c1c7c9; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background-color: #cde3d1; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
 .is-landing .current-actions__title { display: inline-block; font-size: 16px; font-weight: bold; color: #53981e; }
