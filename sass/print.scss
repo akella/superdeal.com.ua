@@ -122,7 +122,6 @@
 		position: relative;
 		text-align: center;
 		margin: 35px 20px -5px;
-		height: 145px;
 		padding: 27px 100px 30px;
 		border: 1px solid #e7eded;
 		@include border-radius(7px);
@@ -139,6 +138,8 @@
 		}
 	}
 		.gift__title{
+			position: relative;
+			z-index: 2;
 			text-transform: uppercase;
 			color: #ef4449;
 			font-style: normal;
