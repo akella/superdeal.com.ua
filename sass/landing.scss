@@ -1,0 +1,169 @@
+@import "base";
+
+.is-landing{
+	background: none;
+	.page{
+		width: 100%;
+	}
+	.header{
+		@extend %site;
+		margin: 15px auto 0;
+		z-index: 10;
+	}
+	.invite-friend{
+		border: 1px solid rgba(255, 255, 255, 0.5);
+		@include text-shadow(0 1px 0 rgba(255,255,255,.3));
+	}
+	.landing{
+		-webkit-background-size: cover !important;
+		-moz-background-size: cover !important;
+		-o-background-size: cover !important;
+		background-size: cover !important;
+		height: 780px;
+		margin-top: -65px;
+		border-bottom: 1px solid #c5c5c5;
+		box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59);
+		position: relative;
+		z-index: 5;
+	}
+		.landing_alt{
+			height: 700px;
+			.current-actions{
+				top: 605px;
+			}
+		}
+		.landing__container{
+			@extend %site;
+			position: relative;
+		}
+			.landing__container_alt{
+				.landing__info{
+					top: 105px;
+					left: 0;
+					padding: 15px 20px 20px;
+				}
+
+				.landing__discount{
+					top: 104px;
+				right: -22px;
+				}
+			}
+		.landing__info{
+			position: absolute;
+			top: 226px;
+			left: -21px;
+			padding: 45px 20px;
+			width: 266px;
+			@include border-radius(6px);
+			@include background-clip(padding-box);
+			background: rgba(0, 0, 0, .3);
+			color: #fff;
+		}
+		.landing__discount{
+			color: #fff;
+			font-size: 27px;
+			font-weight: bold;
+			font-style: italic;
+			font-family: Georgia, "Century Schoolbook L", Serif;
+			position: absolute;
+			top: 226px;
+			right: 0;
+			background: rgba(0, 0, 0, .3);
+			width: 160px;
+			height: 180px;
+			//line-height: 240px;
+			text-align: center;
+			@include border-radius(120px);
+			@include background-clip(padding-box);
+			padding: 60px 40px 0;
+		}
+			.landing__title{
+				font-size: 18px;
+				font-weight: bold;
+				margin-bottom: 15px;
+			}
+			.landing__text{
+				li{
+					list-style: none;
+					position: relative;
+					&:before{
+						position: relative;
+						top: -1px;
+						content: "›";
+						margin-right: 5px;
+						color: #7ac03d;
+						font-size: 13px;
+						font-weight: bold;
+					}
+				}
+			}
+
+		.socials_landing{
+			margin-top: 27px;
+			dt{
+				font-size: 18px;
+				color: #fff;
+			}
+			ul{
+				margin-left: -4px;
+			}
+			li{
+				&:before{
+					content: none;
+				}
+				a{
+					margin-left: 3px;
+				}
+			}
+		}
+	 	.form_landing{
+	 		margin-top: 23px;
+	 		.formline{
+	 			input{
+	 				width: 245px;
+	 			}
+	 		}
+	 	}
+	 	.button_landing{
+	 		margin-top: 19px;
+	 		padding: 0 50px;
+	 	}
+		 .landing__auth{
+		 		margin-top: 23px;
+			a{
+				color: #fff;
+			}
+		}
+
+	.content{
+		@extend %site;
+		z-index: 1;
+		&:before{
+			content: none;
+		}
+	}
+	.nav{
+		position: absolute;
+		top: 690px;
+	}
+	.footer{
+		width: 1000px;
+	}
+	.current-actions{
+		position: absolute;
+		top: 720px;
+		width: 898px;
+		padding: 10px 20px;
+		border: 1px solid #c1c7c9;
+		@include border-radius(7px);
+		@include background-clip(padding-box);
+		background-color: #cde3d1;
+		@include box-shadow(0 2px 5px rgba(0,0,0,.1));
+	}
+		.current-actions__title{
+			display: inline-block;
+			font-size: 16px;
+			font-weight: bold;
+			color: #53981e;
+		}
+}
