@@ -112,4 +112,48 @@ html, body {
 			margin-bottom: 1.1em;
 		}
 	}
+	&.footer_short{
+		height: 68px;
+		width: 100%;
+		.footer__wrap{
+			padding: 0;
+			@extend %site;
+			position: relative;
+		}
+		.footer__socials{
+			font-size: 0;
+			text-align: right;
+			right: 0;
+			top: 22px;
+			line-height: 1;
+			li,a{
+				display: inline-block;
+				margin-right: 3px;
+			}
+		}
+		.footer__links{
+			font-size: 14px;
+			padding-top: 24px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			a{
+				text-decoration: none;
+				margin-right: 30px;
+				color: #ccc;
+				&:hover{
+					color: #fff;
+				}
+				i{
+					display: inline-block;
+					vertical-align: middle;
+					margin-right: 3px;
+					position: relative;
+				}
+			}
+			.footer__help i{@include sized-sprite($icons, fhelp);}
+			.footer__contacts i{@include sized-sprite($icons, fcontacts);top: -2px;}
+			.footer__blog i{@include sized-sprite($icons, fblog);}
+		}
+	}
 }

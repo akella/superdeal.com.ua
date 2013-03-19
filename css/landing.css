@@ -1,12 +1,13 @@
 .is-landing .topper { z-index: 200; position: relative; }
 .is-landing .nav { position: absolute; bottom: 36px; left: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .is-landing .header { position: absolute; width: 100%; }
-.is-landing .header { z-index: 100; top: 50px; }
+.is-landing .header { z-index: 100; top: 50px; margin: 0; }
 .is-landing .invite-friend { border: 1px solid rgba(255, 255, 255, 0.5); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3); }
 .is-landing .landing { -moz-background-size: cover 100%; -webkit-background-size: cover 100%; background-size: cover 100%; background-repeat: no-repeat; background-position: 50% 50%; height: 780px; margin-top: -50px; border-bottom: 1px solid #c5c5c5; box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59); position: relative; z-index: 5; }
 .is-landing .landing .landing__inner { position: relative; height: 100%; }
-.is-landing .landing_alt { height: 700px; }
+.is-landing .landing_alt { height: 700px; margin-top: 0; }
 .is-landing .landing_alt .current-actions { top: 605px; }
+.is-landing .landing_alt .header { top: 20px; margin: 0; }
 .is-landing .landing__container { position: relative; }
 .is-landing .landing__container_alt .landing__info { top: 105px; left: 0; padding: 15px 20px 20px; }
 .is-landing .landing__container_alt .landing__discount { top: 104px; right: -22px; }
@@ -25,5 +26,10 @@
 .is-landing .button_landing { margin-top: 19px; padding: 0 50px; }
 .is-landing .landing__auth { margin-top: 23px; }
 .is-landing .landing__auth a { color: #fff; }
-.is-landing .current-actions { position: absolute; top: 720px; width: 898px; padding: 10px 20px; border: 1px solid #c1c7c9; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background-color: #cde3d1; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+.is-landing .current-actions { position: absolute; top: 720px; width: 898px; padding: 10px 20px; border: 1px solid #c1c7c9; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; background-color: #cde3d1; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
 .is-landing .current-actions__title { display: inline-block; font-size: 16px; font-weight: bold; color: #53981e; }
+.is-landing .current-actions__slider { float: right; width: 720px; }
+.is-landing .current-actions__slider .current-actions__slider__next { position: absolute; right: -20px; background: url('../img/icons-sae43118f26.png') 0 -5692px no-repeat; width: 12px; height: 16px; }
+.is-landing .current-actions__slider .current-actions__slider__prev { position: absolute; left: -20px; background: url('../img/icons-sae43118f26.png') 0 -5744px no-repeat; width: 12px; height: 15px; }
+.is-landing .current-actions__slider .current-actions__content { overflow: hidden; width: 100%; white-space: nowrap; padding-top: 2px; }
+.is-landing .current-actions__slider .current-actions__content a { color: #111; font-size: 12px; margin-right: 20px; }

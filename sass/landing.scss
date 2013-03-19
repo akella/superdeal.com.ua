@@ -19,6 +19,7 @@
 	.header{
 		z-index: 100;
 		top: 50px;
+		margin: 0;
 	}
 	.invite-friend{
 		border: 1px solid rgba(255, 255, 255, 0.5);
@@ -41,56 +42,61 @@
 		}
 	}
 
-		.landing_alt{
-			height: 700px;
-			.current-actions{
-				top: 605px;
-			}
+	.landing_alt{
+		height: 700px;
+		margin-top: 0;
+		.current-actions{
+			top: 605px;
 		}
-		.landing__container{
-			@extend %site;
-			position: relative;
+		.header{
+			top: 20px;
+			margin: 0;
 		}
-			.landing__container_alt{
-				.landing__info{
-					top: 105px;
-					left: 0;
-					padding: 15px 20px 20px;
-				}
-
-				.landing__discount{
-					top: 104px;
-				right: -22px;
-				}
-			}
+	}
+	.landing__container{
+		@extend %site;
+		position: relative;
+	}
+	.landing__container_alt{
 		.landing__info{
-			position: absolute;
-			top: 226px;
-			left: 0px;
-			padding: 45px 20px;
-			width: 266px;
-			@include border-radius(6px);
-			background: rgba(#000, .3);
-			color: #fff;
+			top: 105px;
+			left: 0;
+			padding: 15px 20px 20px;
 		}
+
 		.landing__discount{
-			color: #fff;
-			font-size: 27px;
-			font-weight: bold;
-			font-style: italic;
-			font-family: Georgia, "Century Schoolbook L", Serif;
-			position: absolute;
-			top: 226px;
-			right: 0;
-			background: rgba(0, 0, 0, .3);
-			width: 160px;
-			height: 180px;
-			//line-height: 240px;
-			text-align: center;
-			@include border-radius(120px);
-			@include background-clip(padding-box);
-			padding: 60px 40px 0;
+			top: 104px;
+		right: -22px;
 		}
+	}
+	.landing__info{
+		position: absolute;
+		top: 226px;
+		left: 0px;
+		padding: 45px 20px;
+		width: 266px;
+		@include border-radius(6px);
+		background: rgba(#000, .3);
+		color: #fff;
+	}
+	.landing__discount{
+		color: #fff;
+		font-size: 27px;
+		font-weight: bold;
+		font-style: italic;
+		font-family: Georgia, "Century Schoolbook L", Serif;
+		position: absolute;
+		top: 226px;
+		right: 0;
+		background: rgba(0, 0, 0, .3);
+		width: 160px;
+		height: 180px;
+		//line-height: 240px;
+		text-align: center;
+		@include border-radius(120px);
+		@include background-clip(padding-box);
+		padding: 60px 40px 0;
+	}
 			.landing__title{
 				font-size: 18px;
 				font-weight: bold;
@@ -170,14 +176,38 @@
 		padding: 10px 20px;
 		border: 1px solid #c1c7c9;
 		@include border-radius(7px);
-		@include background-clip(padding-box);
 		background-color: #cde3d1;
 		@include box-shadow(0 2px 5px rgba(0,0,0,.1));
 	}
-		.current-actions__title{
-			display: inline-block;
-			font-size: 16px;
-			font-weight: bold;
-			color: #53981e;
+	.current-actions__title{
+		display: inline-block;
+		font-size: 16px;
+		font-weight: bold;
+		color: #53981e;
+	}
+	.current-actions__slider{
+		float: right;
+		width: 720px;
+		.current-actions__slider__next{
+			position: absolute;
+			right: -20px;
+			@include sized-sprite($icons, ca-next);
 		}
+		.current-actions__slider__prev{
+			position: absolute;
+			left: -20px;
+			@include sized-sprite($icons, ca-prev);
+		}
+		.current-actions__content{
+			overflow: hidden;
+			width: 100%;
+			white-space:nowrap;
+			padding-top: 2px;
+			a{
+				color: #111;
+				font-size: 12px;
+				margin-right: 20px;
+			}
+		}
+	}
 }
