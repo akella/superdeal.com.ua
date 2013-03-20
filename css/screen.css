@@ -920,6 +920,19 @@ html, body { height: 100%; }
 .deal__auth { font-size: 14px; margin-top: 10px; margin-bottom: 20px; }
 .deal__auth a { color: #252525; }
 
+.checkout__wrap .formline_contacts { position: relative; text-align: right; margin-bottom: 10px; }
+.checkout__wrap .formline_contacts input { margin-right: 0; }
+.checkout__wrap .select { display: inline-block; }
+.checkout__wrap .select__location { width: 136px; }
+.checkout__wrap .formline__name { width: 166px; }
+.checkout__wrap .formline__street { width: 131px; }
+.checkout__wrap .formline__short_check { width: 26px; }
+.checkout__wrap .formline__zip { width: 46px; }
+.checkout__wrap .formline__tel { width: 126px; }
+.checkout__wrap .formline__comment { resize: vertical; width: 418px; height: 51px; padding: 10px 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; }
+.checkout__wrap .button_check { margin-top: 20px; margin-bottom: 30px; }
+.checkout__wrap .formline__radio { position: absolute; top: 0; left: 0; }
+
 .topper .hsocials a, .header .header__logo a, .footer .footer__socials a, .coupon .coupon__print .coupon__printpdf, .coupon .coupon__print .coupon__printdoc { font: 0/0 a; text-shadow: none; color: transparent; }
 
 .location .location__content, .footer .footer__wrap, .l, .offers, .megasocials, .deal, .deal .deal__prices, .deal .deal__timeleftwrap, .deal .deal__size, .deal .deal__wrap, .deal .deal__buttons, .gallery, .place, .contactform, .payment, .balance .balance__count, .coupon, .coupon .coupon__meta { *zoom: 1; }

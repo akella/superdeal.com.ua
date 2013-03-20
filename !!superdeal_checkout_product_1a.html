@@ -222,8 +222,6 @@
 				<form action="/" class="form">
 					<h2 class="h2">Выберите способ доставки</h2>
 								<div class="formline">
-									<label>Способ доставки</label>
-									<div class="formline__right">
 										<div class="select">
 											<select>
 												<option value="">курьером</option>
@@ -231,49 +229,45 @@
 											<input type="text" class="select__value" placeholder="курьером">
 											<i></i>
 										</div>
-									</div>
 								</div>
 					<h2 class="h2">Укажите свои контактные данные</h2>
-								<div class="formline">
-									<label>Имя</label>
-									<div class="formline__right">
-										<input type="text" name="" placeholder="">
-											<input type="text" name="" placeholder="Фамилия">
+								<div class="formline formline_contacts">
+									<input type="radio" class="formline__radio"  name="radio-check"checked>
+									<div class="select">
+										<select>
+											<option value="">Киев</option>
+										</select>
+										<input type="text" class="select__location" placeholder="Город">
+										<i></i>
 									</div>
+									<input type="text" class="formline__name" name="" placeholder="ФИО">
+									<input type="text" class="formline__street"  name="" placeholder="Улица">
+									<input type="text" class="formline__short_check" name="" placeholder="Дом">
+									<input type="text"  class="formline__short_check"  name="" placeholder="Кв.">
+									<input type="text"  class="formline__zip"  name="" placeholder="Индекс">
+									<input type="text" class="formline__tel" name="" placeholder="+380 __ ___-__-__">
 								</div>
-								<div class="formline">
-									<label>Город</label>
-									<div class="formline__right">
-										<input type="text" name="" placeholder="">
-										
+								<div class="formline formline_contacts">
+									<input type="radio" class="formline__radio" name="radio-check">
+									<div class="select">
+										<select>
+											<option value="">Киев</option>
+										</select>
+										<input type="text" class="select__location" placeholder="Город">
+										<i></i>
 									</div>
+									<input type="text" class="formline__name" name="" placeholder="ФИО">
+									<input type="text" class="formline__street"  name="" placeholder="Улица">
+									<input type="text" class="formline__short_check" name="" placeholder="Дом">
+									<input type="text"  class="formline__short_check"  name="" placeholder="Кв.">
+									<input type="text"  class="formline__zip"  name="" placeholder="Индекс">
+									<input type="text" class="formline__tel" name="" placeholder="+380 __ ___-__-__">
 								</div>
-								
+								<a href="#" class="button button_check">Добавить адрес</a>
 								<div class="formline">
-									<label>Адрес</label>
-									<div class="formline__right">
-										<input type="text" class="formline__long"  name="" placeholder="Улица">
-										<input type="text" class="formline__short" name="" placeholder="Дом">
-										<input type="text"  class="formline__short"  name="" placeholder="кв">
-									</div>
+									<textarea name="" class="formline__comment" id="" placeholder="Комментарий"></textarea>
 								</div>
-								
-								<div class="formline">
-									<label>Телефон</label>
-									<div class="formline__right">
-											<input type="text" name="" placeholder="телефон">
-												<div class="formline__note"><strong>Для связи курьера с вами.</strong>  Формат: +380 11 123-45-67</div>
-									</div>
-								</div>
-								
-								<div class="formline">
-									<label>Комментарий</label>
-									<div class="formline__right">
-										<textarea class="formline__textarea" name="" id="" cols="30" rows="10"></textarea>
-									</div>
-								</div>
-								
-		
+
 							</form>
 
 
