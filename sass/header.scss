@@ -496,3 +496,81 @@
 		}
 	}
 }
+.firstlogin{
+	display: none;
+}
+.is-firstlogin{
+	overflow: hidden;
+	.overlay{
+		top: 36px;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 100;
+		position: fixed;
+		display: block;
+	}
+	.topper__overlay{
+		display: block;
+	}
+	.overlay, .profile:before,.profile:after{
+		background: rgba(#000,.6);
+	}
+	.profile{
+		z-index: 1000;
+		position: relative;
+		&:before,&:after{
+			width: 1000px;
+			content: ' ';
+			height: 35px;
+			position: absolute;
+			left: -1000px;
+			z-index: 200;
+			top: -5px;
+		}
+		&:after{
+			left: auto;
+			right: -1000px;
+			width: 1000px;
+		}
+	}
+	.firstlogin{
+		position: absolute;
+		top: 52px;
+		right: 158px;
+		display: block;
+		z-index: 1100;
+		width: 340px;
+		ul{
+			list-style: none;
+			margin-bottom: 35px;
+			width: 100%;
+			overflow: hidden;
+		}
+		li{
+			color: #fff;
+			font-size: 12px;
+			margin-bottom: 11px;
+			span{
+				position: relative;
+				display: inline-block;
+				&:after{
+					border-top: 1px solid #898989;
+					width: 1000px;
+					right: -1000px - 5px;
+					top: 8px;
+					content:' ';
+					position: absolute;
+				}
+			}
+
+		}
+		.firstlogin__profile{
+			@include sized-sprite($icons, profilefirst);
+			@extend %hide-text;
+			margin-bottom: 18px;
+		}
+	}
+
+}

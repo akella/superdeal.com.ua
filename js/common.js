@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	$('.js-firstlogin, .overlay').click(function(event) {
+		$('body').removeClass('is-firstlogin');
+	});
 	$('.acco__head').click(function(event) {
 		
 		$(this).parent().toggleClass('is-open');
