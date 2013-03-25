@@ -187,16 +187,27 @@
 	}
 	.current-actions__slider{
 		float: right;
-		width: 720px;
-		.current-actions__slider__next{
+		width: 700px;
+		margin-right: 10px;
+		position: relative;
+		.current-actions__next{
+			cursor: pointer;
+			top: 5px;
 			position: absolute;
 			right: -20px;
 			@include sized-sprite($icons, ca-next);
+			cursor: pointer;
 		}
-		.current-actions__slider__prev{
+		.current-actions__prev{
+			cursor: pointer;
+			top: 5px;
 			position: absolute;
-			left: -20px;
+			left: -35px;
 			@include sized-sprite($icons, ca-prev);
+		}
+		.disabled{
+			opacity: .3;
+			cursor: default;
 		}
 		.current-actions__content{
 			overflow: hidden;
@@ -209,5 +220,38 @@
 				margin-right: 20px;
 			}
 		}
+		.current-actions__aslider{
+			width: 700px;
+			height: 20px;
+			position: relative;
+			overflow: hidden;
+			.slides{
+				width: 20000em;
+				position: absolute;
+			}
+			a{
+				float: left;
+				margin-right: 20px;
+				width: 200px;
+				overflow: hidden;
+				-ms-text-overflow: ellipsis;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
 	}
+}
+.offerslider__next{
+	position: absolute;
+	@extend %hide-text;
+	cursor: pointer;
+	@include sized-sprite($icons, o-next);
+	right: -25px;
+	top: 50%;
+}
+.offerslider__prev{
+	@extend .offerslider__next;
+	right: auto;
+	left: -43px;
+	@include sized-sprite($icons, o-prev);
 }

@@ -1,4 +1,19 @@
 $(document).ready(function() {
+	//landing js - scrollable
+	if($('.current-actions__aslider').length>0){
+		$('.current-actions__aslider').scrollable();
+	}
+	//landing 2 js - cycle
+	$('.offerslider').cycle({
+	            fx:      'scrollHorz',
+	            next:    '.offerslider__next',
+	            prev:    '.offerslider__prev',
+	            timeout:  0,
+	            speed: 700
+	        });
+
+
+
 	$('.js-firstlogin, .overlay').click(function(event) {
 		$('body').removeClass('is-firstlogin');
 	});
