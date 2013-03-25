@@ -113,7 +113,9 @@
 		color: #777778;
 	}
 	.userdata__report-value{
-		overflow: hidden;
+		float: left;
+		max-width: 100px;
+		white-space: nowrap;
 		//font-family: "Arial Rounded MT Bold";
 		font-weight: bold;
 		font-size: 18px;

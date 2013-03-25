@@ -27,6 +27,11 @@
 				vertical-align: middle;
 				margin-left: 4px;
 			}
+			&.active{
+				i{
+					@include sized-sprite($icons, city__up);
+				}
+			}
 		}
 		.city__change{
 			color: #ebebeb;

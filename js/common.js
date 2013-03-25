@@ -10,6 +10,7 @@ $(document).ready(function() {
 
 	$('.city__change').click(function(event) {
 		$('.location').slideToggle();
+		$('.city__current').toggleClass('active');
 		return false;
 	});
 	$('.profile__user').click(function(event) {
