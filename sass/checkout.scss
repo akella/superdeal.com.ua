@@ -118,6 +118,9 @@
 	width: 650px;
 	position: relative;
 	vertical-align: middle;
+	.lteie8 &{
+		border: none;
+	}
 	.selectreplaced__actual{
 		position: absolute;
 		opacity: 0;
@@ -136,7 +139,10 @@
 		display: inline-block;
 		z-index: 2;
 		@include sized-sprite($icons, select);
-	}
+		.lteie8 &{
+			display: none;
+		}
+}
 	.selectreplaced__value{
 		height: 30px;
 		line-height: 30px;
@@ -228,7 +234,6 @@
 		display: inline-block;
 		z-index: 100;
 		cursor: pointer;
-
 	}
 	.payment__info{
 		padding-top: 20px;
@@ -256,6 +261,10 @@
 		top: 50%;
 		margin-top: -45px;
 		position: relative;
+		.lteie8 &{
+			border: none;
+			top: 10px;
+		}
 	}
 	@each $s in visa, privat, bank, terminal, interkassa, webmoney, liqpay{
 		.payment__#{$s} .payment__icon{

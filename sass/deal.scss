@@ -163,6 +163,9 @@
 				right: 10px;
 				top: 13px;
 				@include sized-sprite($icons, selectar);
+				.lteie8 &{
+					display: none;
+				}
 			}
 			.select__value{
 				border: 1px solid #c7c7c7;
@@ -172,6 +175,9 @@
 				height: 30px;
 				line-height: 30px;
 				color: #737373;
+				.lteie8 &{
+					border: none;
+				}
 			}
 		}
 	}
@@ -299,6 +305,10 @@
 		font-size: 14px;
 		position: relative;
 		z-index: 2;
+		.lteie8 &{
+			padding-top: 6px;
+			height: 24px;
+		}
 	}
 	.number__minus{
 		position: relative;
@@ -309,6 +319,7 @@
 		border: 1px solid #c7c7c7;
 		border-right: none;
 		height: 30px;
+		background-color: #f1f5f8;
 		@include background-image(linear-gradient(#f1f5f8, #e7eef2));
 		cursor: pointer;
 		i{
@@ -316,9 +327,11 @@
 			@include sized-sprite($icons, minus);
 		}
 		&:hover{
+			background-color: #fff;
 			@include background-image(linear-gradient(#fff, #e7edf2));
 		}
 		&:active{
+			background-color: #d9e4eb;
 			@include background-image(linear-gradient(#d9e4eb, #f0f4f7));
 		}
 	}
