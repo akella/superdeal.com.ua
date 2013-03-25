@@ -24,6 +24,9 @@
 	border-radius: 6px;
 	@include transform(translateX(2000px));
 	@include transition(all, .5s, ease-in);
+	.lteie8 &{
+		border: 2px solid #000;
+	}
 	.popup__wrapcols{
 		overflow: hidden;
 		border-top: 1px dotted #b5d0e2;
@@ -88,6 +91,9 @@
 	dd,ul,li{
 		display: inline-block;
 		list-style: none;
+		.lteie8 &{
+			float: left;
+		}
 	}
 	a{
 		display: inline-block;
@@ -98,6 +104,9 @@
 		background: red;
 		position: relative;
 		top: 8px;
+		.lteie8 &{
+			float: left;
+		}
 		&.socials__fb{
 			@include sized-sprite($icons, s_fb);
 			&:hover{@include sized-sprite($icons, s_fbh);}
@@ -223,6 +232,7 @@
 	font-weight: bold;
 	text-decoration: none;
 	color: #fff;
+	background-color: #7aba49;
 	@include background-image(linear-gradient(#7aba49, #3f840b));
 	&:hover{
 		@include background-image(linear-gradient(#93c66c, #55882e));
