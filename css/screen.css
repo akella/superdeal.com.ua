@@ -535,7 +535,8 @@ html, body { height: 100%; }
 .deal-small .deal-small__pic img { border: 1px solid #cacfd0; }
 .deal-small .deal-small__link { width: 309px; float: left; color: #000; font-size: 13px; font-weight: bold; line-height: 1.3em; }
 .deal-small .deal-small__price { text-align: right; float: left; width: 106px; position: relative; margin-top: 19px; }
-.deal-small .deal-small__price .price__old { text-align: right; position: absolute; top: -12px; right: 0; font-size: 10px; white-space: nowrap; }
+.deal-small .deal-small__price .price__old { text-align: right; position: absolute; bottom: 17px; right: 0; font-size: 10px; white-space: normal; width: 80px; }
+.deal-small .deal-small__price .price__old.price__old_none:before, .deal-small .deal-small__price .price__old.price__old_none :after { display: none; }
 .deal-small .deal-small__price .price__actual { font-size: 18px; margin: 0; padding: 0; }
 .deal-small .deal-small__buy { float: right; margin-top: 5px; }
 
