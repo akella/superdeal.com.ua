@@ -21,6 +21,7 @@
 	background: #fff;
 	box-shadow:0 0 15px rgba(#000,.7);
 	z-index: 1001;
+
 	border-radius: 6px;
 	@include transform(translateX(2000px));
 	@include transition(all, .5s, ease-in);
@@ -224,6 +225,11 @@
 		display: inline-block;
 		z-index: 2;
 		@include sized-sprite($icons, select);
+	}
+	.lteie8 &{
+		input{
+			visibility: hidden;
+		}
 	}
 }
 .button{

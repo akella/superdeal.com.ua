@@ -10,6 +10,7 @@
 .input-wrap{
 	position: relative;
 	display: inline-block;
+	display: inline;
 	i{
 		position: absolute;
 		content: "";
@@ -24,6 +25,10 @@
 			@include sized-sprite($icons, gender_female);
 		}
 	}
+}
+input[type=radio]{
+	border: none !important;
+	padding: 0 !important;
 }
 
 .formline{

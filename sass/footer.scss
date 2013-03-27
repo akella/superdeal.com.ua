@@ -95,8 +95,16 @@ html, body {
 			vertical-align: top;
 			@extend %hide-text;
 			//loop thru icons
+			i{
+				.lteie8 &{
+					display: inline;
+					position: relative;
+					top: 2px;
+				}
+			}
 			@each $social in fb, vk, gp, rss{
 				&.social__#{$social}{
+					vertical-align: middle;
 					@include sized-sprite($icons, f-#{$social});
 					&:hover{@include sized-sprite($icons, f-#{$social}_hover);}
 					&:active{@include sized-sprite($icons, f-#{$social}_active);}
@@ -129,6 +137,10 @@ html, body {
 			li,a{
 				display: inline-block;
 				margin-right: 3px;
+				.lteie8 &{
+					display: inline;
+					zoom: 1;
+				}
 			}
 		}
 		.footer__links{

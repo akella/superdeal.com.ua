@@ -103,6 +103,10 @@ a{
 		@include background-image(linear-gradient(#ffd300, #fff300));
 	}
 }
+input.button, button.button{
+	border: none;
+	overflow: hidden;
+}
 %smallbutton{
 	@extend %button;
 	height: 26px;

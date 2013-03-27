@@ -190,24 +190,33 @@
 			top: auto;
 			height: auto;
 			bottom: 10px;
+			background: rgba(#fff,.5);
+			min-height: 44px;
+			bottom: 0;
+			padding-bottom: 10px;
+			border-bottom-left-radius:6px;
+			border-bottom-right-radius:6px;
 			del{
 				position: absolute;
 				top: auto;
 				left: 17px;
-				bottom: 10px;
+				bottom: 10px + 10px;
 				font-size: 12px;
 
 			}
 			.price__actual{
 				right: 10px;
 				left: auto;
-				bottom: 7px;
+				bottom: 7px + 10px;
 				position: absolute;
 			}
 		}
 		.pics,.pics__wrap{
 			width: 287px;
 			height: 170px;
+		}
+		.pics{
+			bottom: 0;
 		}
 	}
 
