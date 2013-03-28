@@ -2,8 +2,7 @@
 
 .is-landing .topper { z-index: 200; position: relative; }
 .is-landing .nav { position: absolute; bottom: 36px; left: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
-.is-landing .header { position: absolute; width: 100%; }
-.is-landing .header { z-index: 100; top: 50px; margin: 0; }
+.is-landing .header { position: absolute; width: 100%; z-index: 100; top: 50px; margin: 0; top: 71px; }
 .is-landing .invite-friend { border: 1px solid rgba(255, 255, 255, 0.5); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3); }
 .is-landing .landing { -moz-background-size: cover 100%; -webkit-background-size: cover 100%; background-size: cover 100%; background-repeat: no-repeat; background-position: 50% 50%; height: 780px; margin-top: -50px; border-bottom: 1px solid #c5c5c5; box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59); position: relative; z-index: 5; width: 100%; overflow: hidden; }
 .is-landing .landing .landing__inner { position: relative; height: 100%; }
@@ -34,8 +33,8 @@
 .is-landing .current-actions__title { display: inline-block; font-size: 16px; font-weight: bold; color: #53981e; float: left; }
 .lteie8 .is-landing .current-actions__title { display: inline; zoom: 1; }
 .is-landing .current-actions__slider { float: right; width: 700px; margin-right: 10px; position: relative; }
-.is-landing .current-actions__slider .current-actions__next { cursor: pointer; top: 5px; position: absolute; right: -20px; background: url('../img/icons-s2ab48043a6.png') 0 -5842px no-repeat; width: 12px; height: 16px; cursor: pointer; }
-.is-landing .current-actions__slider .current-actions__prev { cursor: pointer; top: 5px; position: absolute; left: -35px; background: url('../img/icons-s2ab48043a6.png') 0 -5894px no-repeat; width: 12px; height: 15px; }
+.is-landing .current-actions__slider .current-actions__next { cursor: pointer; top: 5px; position: absolute; right: -20px; background: url('../img/icons-s33fde62b07.png') 0 -5876px no-repeat; width: 12px; height: 16px; cursor: pointer; }
+.is-landing .current-actions__slider .current-actions__prev { cursor: pointer; top: 5px; position: absolute; left: -35px; background: url('../img/icons-s33fde62b07.png') 0 -5928px no-repeat; width: 12px; height: 15px; }
 .is-landing .current-actions__slider .disabled { opacity: .3; cursor: default; }
 .is-landing .current-actions__slider .current-actions__content { overflow: hidden; width: 100%; white-space: nowrap; padding-top: 2px; }
 .is-landing .current-actions__slider .current-actions__content a { color: #111; font-size: 12px; margin-right: 20px; }
@@ -43,6 +42,6 @@
 .is-landing .current-actions__slider .current-actions__aslider .slides { width: 20000em; position: absolute; }
 .is-landing .current-actions__slider .current-actions__aslider a { float: left; margin-right: 20px; width: 200px; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }
 
-.offerslider__next, .offerslider__prev { position: absolute; cursor: pointer; background: url('../img/icons-s2ab48043a6.png') 0 -4952px no-repeat; width: 26px; height: 42px; right: -25px; top: 50%; }
+.offerslider__next, .offerslider__prev { position: absolute; cursor: pointer; background: url('../img/icons-s33fde62b07.png') 0 -4986px no-repeat; width: 26px; height: 42px; right: -25px; top: 50%; }
 
-.offerslider__prev { right: auto; left: -43px; background: url('../img/icons-s2ab48043a6.png') 0 -2487px no-repeat; width: 26px; height: 42px; }
+.offerslider__prev { right: auto; left: -43px; background: url('../img/icons-s33fde62b07.png') 0 -2487px no-repeat; width: 26px; height: 42px; }

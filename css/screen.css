@@ -983,8 +983,7 @@ input[type=radio] { border: none !important; padding: 0 !important; }
 
 .is-landing .topper { z-index: 200; position: relative; }
 .is-landing .nav, .is-landing .dealinfo .dealinfo__nav, .dealinfo .is-landing .dealinfo__nav, .is-landing .nav_user { position: absolute; bottom: 36px; left: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
-.is-landing .header { position: absolute; width: 100%; }
-.is-landing .header { z-index: 100; top: 50px; margin: 0; }
+.is-landing .header { position: absolute; width: 100%; z-index: 100; top: 50px; margin: 0; top: 71px; }
 .is-landing .invite-friend { border: 1px solid rgba(255, 255, 255, 0.5); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3); }
 .is-landing .landing { -moz-background-size: cover 100%; -webkit-background-size: cover 100%; background-size: cover 100%; background-repeat: no-repeat; background-position: 50% 50%; height: 780px; margin-top: -50px; border-bottom: 1px solid #c5c5c5; box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59); position: relative; z-index: 5; width: 100%; overflow: hidden; }
 .is-landing .landing .landing__inner { position: relative; height: 100%; }
