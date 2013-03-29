@@ -18,12 +18,6 @@ $break-large: 1180px;
   }
 }
 
-// BACKGROUND SIZE
-@mixin background-size($width: 100%, $height: 100%) {
-     -moz-background-size: $width $height;
-  -webkit-background-size: $width $height;
-          background-size: $width $height;
-}
 // ROTATE
 @mixin rotate($deg: 0, $m11: 0, $m12: 0, $m21: 0, $m22: 0) {
      -moz-transform: rotate($deg + deg);
