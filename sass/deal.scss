@@ -663,6 +663,15 @@
 			font-size: 10px;
 			white-space:normal;
 			width: 80px;
+			&:before{
+				border: none;
+				background: red;
+				@include sized-sprite($icons, thru);
+				position: absolute;
+				right: 4px;
+				top: 0px;
+				left: auto;
+			}
 			&.price__old_none{
 				&:before,:after{display: none;}
 			}
