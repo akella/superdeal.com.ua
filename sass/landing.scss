@@ -257,6 +257,35 @@
 		}
 	}
 }
+.is-landingfullscreen{
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	height: 100%;
+	min-height: 700px;
+	position: relative;
+	.landing{
+// 		height: auto;
+	}
+	.footer{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 100;
+		&:before,&:after{
+			display: none;
+		}
+	}
+	.landing_alt{
+		.current-actions{
+			top: 574px;
+		}
+	}
+	
+}
 .offerslider__next{
 	position: absolute;
 	@extend %hide-text;

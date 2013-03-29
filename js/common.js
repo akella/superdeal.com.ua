@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 	//landing js - scrollable
 	if($('.current-actions__aslider').length>0){
-		$('.current-actions__aslider').scrollable();
+		$('.current-actions__aslider').scrollable({circular:true});
 		$(".current-actions__aslider").scrollableAddClones();
 	}
 	//landing 2 js - cycle
