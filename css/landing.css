@@ -29,12 +29,12 @@
 .is-landing .button_landing { margin-top: 19px; padding: 0 50px; }
 .is-landing .landing__auth { display: block; clear: both; margin-top: 23px; }
 .is-landing .landing__auth a { color: #fff; }
-.is-landing .current-actions { position: absolute; top: 720px; width: 898px; padding: 10px 20px; border: 1px solid #c1c7c9; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; background-color: #cde3d1; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+.is-landing .current-actions { position: absolute; top: auto !important; bottom: 100px; background: 100px; width: 898px; padding: 10px 20px; border: 1px solid #c1c7c9; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; background-color: #cde3d1; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
 .is-landing .current-actions__title { display: inline-block; font-size: 16px; font-weight: bold; color: #53981e; float: left; }
 .lteie8 .is-landing .current-actions__title { display: inline; zoom: 1; }
 .is-landing .current-actions__slider { float: right; width: 700px; margin-right: 10px; position: relative; }
-.is-landing .current-actions__slider .current-actions__next { cursor: pointer; top: 5px; position: absolute; right: -20px; background: url('../img/icons-s33fde62b07.png') 0 -5876px no-repeat; width: 12px; height: 16px; cursor: pointer; }
-.is-landing .current-actions__slider .current-actions__prev { cursor: pointer; top: 5px; position: absolute; left: -35px; background: url('../img/icons-s33fde62b07.png') 0 -5928px no-repeat; width: 12px; height: 15px; }
+.is-landing .current-actions__slider .current-actions__next { cursor: pointer; top: 5px; position: absolute; right: -20px; background: url('../img/icons-s0a009ec961.png') 0 -5876px no-repeat; width: 12px; height: 16px; cursor: pointer; }
+.is-landing .current-actions__slider .current-actions__prev { cursor: pointer; top: 5px; position: absolute; left: -35px; background: url('../img/icons-s0a009ec961.png') 0 -5928px no-repeat; width: 12px; height: 15px; }
 .is-landing .current-actions__slider .disabled { opacity: .3; cursor: default; }
 .is-landing .current-actions__slider .current-actions__content { overflow: hidden; width: 100%; white-space: nowrap; padding-top: 2px; }
 .is-landing .current-actions__slider .current-actions__content a { color: #111; font-size: 12px; margin-right: 20px; }
@@ -45,8 +45,10 @@
 .is-landingfullscreen { background-repeat: no-repeat; background-position: 50% 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100%; min-height: 700px; position: relative; }
 .is-landingfullscreen .footer { position: absolute; bottom: 0; left: 0; right: 0; z-index: 100; }
 .is-landingfullscreen .footer:before, .is-landingfullscreen .footer:after { display: none; }
-.is-landingfullscreen .landing_alt .current-actions { top: 574px; }
+.is-landingfullscreen .landing_alt { border: none; box-shadow: none; height: 100%; min-height: 700px; }
+.is-landingfullscreen .landing_alt .landing__container { height: 100%; min-height: 700px; }
+.is-landingfullscreen .landing_alt .current-actions { top: 574px; height: auto !important; }
 
-.offerslider__next, .offerslider__prev { position: absolute; cursor: pointer; background: url('../img/icons-s33fde62b07.png') 0 -4986px no-repeat; width: 26px; height: 42px; right: -25px; top: 50%; }
+.offerslider__next, .offerslider__prev { position: absolute; cursor: pointer; background: url('../img/icons-s0a009ec961.png') 0 -4986px no-repeat; width: 26px; height: 42px; right: -25px; top: 50%; }
 
-.offerslider__prev { right: auto; left: -43px; background: url('../img/icons-s33fde62b07.png') 0 -2487px no-repeat; width: 26px; height: 42px; }
+.offerslider__prev { right: auto; left: -43px; background: url('../img/icons-s0a009ec961.png') 0 -2487px no-repeat; width: 26px; height: 42px; }
