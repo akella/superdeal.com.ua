@@ -25,6 +25,21 @@ $.fn.scrollableAddClones = function(addItems) {
 
 
 $(document).ready(function() {
+	//landing 2 stuff
+	if($('.is-landing2').length>0){
+		bodyh = $('body').height();
+		if(bodyh<580){bodyh = 580;}
+		bodyh = bodyh + 15;
+		$('.landing').height(bodyh);
+		$(window).resize(function() {
+			bodyh = $('body').height();
+			if(bodyh<580){bodyh = 580;}
+			bodyh = bodyh + 15;
+			$('.landing').height(bodyh);
+		})
+	}
+
+
 	$('input, textarea').placeholder();
 
 
