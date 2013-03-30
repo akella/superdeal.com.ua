@@ -1,7 +1,10 @@
 @import "base";
 
 .is-landing{
-
+	.location{
+		position: relative;
+		z-index:1000;
+	}
 	.topper{
 		z-index: 200;
 		position: relative;

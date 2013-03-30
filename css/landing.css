@@ -1,5 +1,6 @@
 .offerslider__next, .offerslider__prev { font: 0/0 a; text-shadow: none; color: transparent; }
 
+.is-landing .location { position: relative; z-index: 1000; }
 .is-landing .topper { z-index: 200; position: relative; }
 .is-landing .nav { position: absolute; bottom: 36px; left: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .is-landing .header { position: absolute; width: 100%; z-index: 100; top: 50px; margin: 0; top: 71px; }
