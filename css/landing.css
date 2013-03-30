@@ -42,7 +42,7 @@
 .is-landing .current-actions__slider .current-actions__aslider .slides { width: 20000em; position: absolute; }
 .is-landing .current-actions__slider .current-actions__aslider a { float: left; margin-right: 20px; width: 200px; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; }
 
-.is-landingfullscreen { background-repeat: no-repeat; background-position: 50% 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100%; min-height: 700px; position: relative; }
+.is-landingfullscreen { background-repeat: no-repeat; background-position: 50% 0; -webkit-background-size: auto 100%; -moz-background-size: auto 100%; -o-background-size: auto 100%; background-size: auto 100%; background-color: #252525; height: 100%; min-height: 700px; position: relative; }
 .is-landingfullscreen .footer { position: absolute; bottom: 0; left: 0; right: 0; z-index: 100; }
 .is-landingfullscreen .footer:before, .is-landingfullscreen .footer:after { display: none; }
 .is-landingfullscreen .landing_alt { border: none; box-shadow: none; height: 100%; min-height: 700px; }
