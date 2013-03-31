@@ -1,7 +1,10 @@
 @import "base";
 
 .is-landing{
-
+	.location{
+		position: relative;
+		z-index:1000;
+	}
 	.topper{
 		z-index: 200;
 		position: relative;
@@ -183,7 +186,10 @@
 // 	}
 	.current-actions{
 		position: absolute;
-		top: 720px;
+		//top: 720px;
+		top: auto !important;
+		bottom: 100px;
+		background: 100px;
 		width: 898px;
 		padding: 10px 20px;
 		border: 1px solid #c1c7c9;
@@ -261,7 +267,8 @@
 .is-landingfullscreen{
 	background-repeat: no-repeat;
 	background-position: 50% 0;
-	@include background-size(cover);
+	@include background-size(auto 100%);
+	background-color: #252525;
 	height: 100%;
 	min-height: 700px;
 	position: relative;
@@ -279,10 +286,23 @@
 		}
 	}
 	.landing_alt{
+		border:none;
+		box-shadow:none;
+		height: 100%;
+		min-height: 700px;
+		.landing__container{
+			height: 100%;
+			min-height: 700px;
+		}
 		.current-actions{
 			top: 574px;
+			height: auto !important;
+			
 		}
 	}
+}
+.is-landing2{
+
 }
 .offerslider__next{
 	position: absolute;
