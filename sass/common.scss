@@ -47,6 +47,9 @@ a img,fieldset{
 a{
 	color:#3383ae;
 }
+.male,.female{
+	display: none !important;
+}
 // common styles, these could be attached to any block with "@extend %wyswyg;"
 %wyswyg{
 	p{
