@@ -444,6 +444,7 @@ html, body { height: 100%; }
 .deal .deal__number { float: left; width: 100px; margin-right: 20px; }
 .deal .deal__wrap .deal__label { display: block; margin-bottom: 9px; }
 .deal .deal__color { float: left; width: 180px; }
+.deal .deal__color.deal__color_margin { margin-bottom: 10px; }
 .deal .deal__color .select { position: relative; }
 .deal .deal__color .select select { -webkit-appearance: none; width: 100%; height: 30px; position: absolute; opacity: 0; left: 0; top: 0; z-index: 2; }
 .deal .deal__color .select i { position: absolute; right: 10px; top: 13px; background: url('../img/icons-s0a009ec961.png') 0 -5337px no-repeat; width: 8px; height: 7px; }

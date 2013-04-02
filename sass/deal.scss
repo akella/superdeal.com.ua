@@ -145,6 +145,9 @@
 	.deal__color{
 		float: left;
 		width: 180px;
+		&.deal__color_margin{
+			margin-bottom: 10px;
+		}
 		.select{
 			position: relative;
 			select{
