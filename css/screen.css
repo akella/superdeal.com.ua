@@ -271,7 +271,7 @@ html, body { height: 100%; }
 /* default layout */
 .l .l-col1 { float: left; width: 520px; }
 .l.l_static .l-col1 { width: 635px; }
-.l .l-col2 { float: right; width: 288px; }
+.l .l-col2 { float: right; width: 288px; width: 342px; }
 .l.l_static .l-col2 { width: 246px; }
 
 .topper .hsocials a, .header .header__logo a, .is-firstlogin .firstlogin .firstlogin__profile, .footer .footer__socials a, .coupon .coupon__print .coupon__printpdf, .coupon .coupon__print .coupon__printdoc, .offerslider__next, .offerslider__prev { font: 0/0 a; text-shadow: none; color: transparent; }
@@ -377,6 +377,8 @@ html, body { height: 100%; }
 .offer.offer_three .price .price__actual { right: 10px; left: auto; bottom: 17px; position: absolute; }
 .offer.offer_three .pics, .offer.offer_three .pics__wrap { width: 287px; height: 170px; }
 .offer.offer_three .pics { bottom: 0; }
+.offer.offer_weird { width: 100%; }
+.offer.offer_weird .pics, .offer.offer_weird .pics__wrap { width: 340px; }
 
 .price { position: absolute; height: 36px; bottom: 0; left: 0; right: 0; background: #FFF; padding: 17px 0 0 18px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; }
 

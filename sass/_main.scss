@@ -219,7 +219,13 @@
 			bottom: 0;
 		}
 	}
-
+	&.offer_weird{
+		width: 100%;
+		.pics,.pics__wrap{
+			width: 340px;
+			
+		}
+	}
 }
 .price{
 	@extend %price;
