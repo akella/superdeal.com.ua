@@ -521,6 +521,27 @@
 			@include background-image(linear-gradient(#e2efe2, #f7fbf7));
 		}
 	}
+	.nav__active{
+		box-shadow: 0 10px 10px -10px rgba(#000,.3);
+		a{
+			@include background-image(linear-gradient(#fefefe, #fcfefc));
+			&:before,&:after{
+				border-left: 1px solid #c8cfd3;
+				width: 1px;
+				height: 100%;
+				position: absolute;
+				left: -1px;
+				content:'';
+			}
+			&:after{
+				left: auto;
+				right: -1px;
+			}
+			i{
+				opacity: 1;
+			}
+		}
+	}
 }
 .firstlogin{
 	display: none;
