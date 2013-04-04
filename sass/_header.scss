@@ -466,7 +466,12 @@
 			}
 		}
 	}
-
+	&.nav_five{
+		display: inline-block;
+		li a{
+			padding-right: 15px;
+		}
+	}
 	a{
 		font-size: 17px;
 		font-weight: bold;
