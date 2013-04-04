@@ -562,8 +562,9 @@ html, body { height: 100%; }
 .deal-small .deal-small__pic img { border: 1px solid #cacfd0; }
 .deal-small .deal-small__link { width: 309px; float: left; color: #000; font-size: 13px; font-weight: bold; line-height: 1.3em; }
 .deal-small .deal-small__price { text-align: right; float: left; width: 106px; position: relative; margin-top: 19px; }
-.deal-small .deal-small__price .price__old { text-align: right; position: absolute; bottom: 17px; right: 0; font-size: 10px; white-space: normal; width: 80px; }
-.deal-small .deal-small__price .price__old:before { border: none; background: red; background: url('../img/icons-s0a009ec961.png') 0 -5953px no-repeat; width: 46px; height: 8px; position: absolute; right: 4px; top: 0px; left: auto; }
+.deal-small .deal-small__price .price__old { text-align: right; position: absolute; bottom: 17px; right: 0; font-size: 10px; white-space: normal; width: 80px; display: inline-block; width: auto; }
+.deal-small .deal-small__price .price__old:before { border: none; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAICAYAAACGTM0cAAAAoElEQVQ4y93UIQvCUBTF8SeMGcTg0oLBIEuCYawIFtPqgqwIFllYNZnEMhkLbvNz7jv4f3C+xPXBr9/DPe+6ab3tMKLHHTk2mDkLzw+qgXMF6BXIe6BAgsBZeQwb44QaHwwK9MQZO4SWAkU4olLlvtpUgwtSLCwFWiLDFW9tyIdqccMBK0uB5tijxEt1G1S/WnWMLQUK9PELHYLxXy9d9wMmwHN+PiRy0QAAAABJRU5ErkJggg==') no-repeat 0 0; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; width: 100%; height: 100%; position: absolute; right: 0px; top: 0px; left: 0; }
+.deal-small .deal-small__price .price__old:before .lteie8 { text-decoration: line-through; }
 .deal-small .deal-small__price .price__old.price__old_none:before, .deal-small .deal-small__price .price__old.price__old_none :after { display: none; }
 .deal-small .deal-small__price .price__actual { font-size: 18px; margin: 0; padding: 0; }
 .deal-small .deal-small__buy { float: right; margin-top: 5px; }
