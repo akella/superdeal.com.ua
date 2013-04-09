@@ -5,6 +5,9 @@
 	@include background-image(linear-gradient(#363636, #252525));
 	box-shadow: 0 0 5px rgba(#000,.8);
 	font-size: 12px;
+	.lteie8 &{
+		position: relative;
+	}
 	.topper__content{
 		@extend %site;
 		position: relative;
@@ -235,6 +238,9 @@
 .location{
 	background-color: #363636;
 	@include background-image(linear-gradient(#363636, #252525));
+	.lteie8 &{
+		zoom:1;
+	}
 	.location__content{
 		@extend %site;
 		@extend %clr;
@@ -312,8 +318,8 @@
 					
 					.lteie8 &{
 						border: none;
-						top: 0;
-						left: 0;
+						//top: 0;
+						//left: 0;
 						width: 26px;
 						height: 26px;
 						background: url(../img/city.png) no-repeat 0 0;
