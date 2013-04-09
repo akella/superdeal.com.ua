@@ -48,7 +48,6 @@ input.button, button.button { border: none; overflow: hidden; }
 
 .offer .offer__discount, .deal .deal__discount { position: absolute; top: -4px; right: -5px; background: url('../img/icons-s0a009ec961.png') 0 -1375px no-repeat; width: 96px; height: 97px; color: #000; font-size: 1px; z-index: 50; }
 .offer .offer__discount span, .deal .deal__discount span { display: block; height: 35px; line-height: 35px; width: 130px; color: #fff; text-align: center; -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0; -ms-transform-origin: 0 0; -o-transform-origin: 0 0; transform-origin: 0 0; position: absolute; left: 27px; top: -27px; font-size: 27px; padding-top: 2px; }
-.lteie8 .offer .offer__discount span, .offer .lteie8 .offer__discount span, .lteie8 .deal .deal__discount span, .deal .lteie8 .deal__discount span { -ms-filter: progid:DXImageTransform.Microsoft.Matrix(M11=$m11, M12=$m12,M21=$m21, M22=$m22, sizingMethod='auto expand'); zoom: 1; }
 
 .pics__prev, .gallery .gallery__prev, .pics__next, .gallery .gallery__next { position: absolute; display: none; top: 50%; margin-top: -19px; background: url('../img/icons-s0a009ec961.png') 0 -3148px no-repeat; width: 36px; height: 47px; right: -6px; z-index: 50; cursor: pointer; }
 
@@ -67,6 +66,7 @@ input.button, button.button { border: none; overflow: hidden; }
 .content:before { content: ''; background: url('../img/icons-s0a009ec961.png') 0 -4837px no-repeat; width: 971px; height: 6px; position: absolute; top: -1px; left: -15px; display: inline-block; }
 
 .form_contact textarea, .checkout__personal-data input, .present .present__input, .formline input, .formline .formline__textarea { padding: 0 10px; border-radius: 4px; border: 1px solid #c7c7c7; box-shadow: inset 0 1px 0 #c7c7c7; font-size: 14px; height: 30px; vertical-align: middle; }
+.lteie8 .form_contact textarea, .form_contact .lteie8 textarea, .lteie8 .checkout__personal-data input, .checkout__personal-data .lteie8 input, .lteie8 .present .present__input, .present .lteie8 .present__input, .lteie8 .formline input, .formline .lteie8 input, .lteie8 .formline .formline__textarea, .formline .lteie8 .formline__textarea { padding-top: 7px; height: 23px; }
 
 .external { color: #898989; }
 .external:after { content: ' '; display: inline-block; background: url('../img/icons-s0a009ec961.png') 0 -5492px no-repeat; width: 10px; height: 9px; }
@@ -333,7 +333,7 @@ html, body { height: 100%; }
 .form .form__text a { color: #000; }
 .form .form__text input { margin-right: 3px; }
 
-.select { position: relative; }
+.select { position: relative; display: block; }
 .select select { position: absolute; opacity: 0; height: 32px; -webkit-appearance: none; width: 100%; z-index: 3; top: 0; left: 0; }
 .select i { position: absolute; right: 10px; top: 12px; display: inline-block; z-index: 2; background: url('../img/icons-s0a009ec961.png') 0 -5320px no-repeat; width: 8px; height: 7px; }
 .lteie8 .select input { visibility: hidden; }
@@ -1025,6 +1025,7 @@ input[type=radio] { border: none !important; padding: 0 !important; }
 .is-landing .socials_landing li a { margin-left: 3px; }
 .is-landing .form_landing { margin-top: 23px; }
 .is-landing .form_landing .formline input { width: 245px; }
+.lteie8 .is-landing .form_landing .formline input { width: 235px; }
 .is-landing .button_landing { margin-top: 19px; padding: 0 50px; }
 .is-landing .landing__auth { display: block; clear: both; margin-top: 23px; }
 .is-landing .landing__auth a { color: #fff; }
@@ -1060,4 +1061,4 @@ input[type=radio] { border: none !important; padding: 0 !important; }
 .lteie8 .offer_big .offer__title { background: #fff; }
 .lteie8 del { text-decoration: line-through !important; }
 .lteie8 .more { margin-top: 18px; }
-.lteie8 .offer__discount span { top: -27px; left: 4px; text-shadow: 0 0 2px #fff; opacity: .9; zoom: 1; }
+.lteie8 .offer__discount span { top: -27px; left: 4px; text-shadow: 0 0 2px #fff; opacity: .9; zoom: 1; filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476) \9; /* IE6,IE7 */ -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"\9; /* IE8 */ }

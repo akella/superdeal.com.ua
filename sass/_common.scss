@@ -320,6 +320,10 @@ input.button, button.button{
 	font-size: 14px;
 	height: 30px;
 	vertical-align: middle;
+	.lteie8 &{
+		padding-top: 7px;
+		height: 23px;
+	}
 }
 .external{
 	color: #898989;
