@@ -632,3 +632,10 @@
 	}
 
 }
+.scrollup{
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	@include sized-sprite($icons, scrollup);
+	cursor: pointer;
+}

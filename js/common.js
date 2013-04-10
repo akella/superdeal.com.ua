@@ -25,6 +25,11 @@ $.fn.scrollableAddClones = function(addItems) {
 
 
 $(document).ready(function() {
+
+	$('.scrollup').click(function(){
+		$('html,body').animate({scrollTop:0}, 'slow');
+		return false;
+	});
 	//landing 2 stuff
 	if($('.is-landing2').length>0){
 		bodyh = $('body').height();
