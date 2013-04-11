@@ -100,9 +100,9 @@
 			vertical-align: top;
 			@each $social in fb, vk, gp{
 				&.hsocials__#{$social}{
-					@include sized-sprite($icons, #{$social});
+					@include sized-sprite($icons1, #{$social});
 					&:hover{
-						@include sized-sprite($icons, #{$social}_hover);
+						@include sized-sprite($icons1, #{$social}_hover);
 					}
 				}
 			}
@@ -437,18 +437,18 @@
 	li{
 		position: relative;
 		float: left;
-		&.nav__all{width: 160px;i{@include sized-sprite($icons, nav__all);top:-2px;}}
-		&.nav__bea{width: 148px;i{@include sized-sprite($icons, nav__bea);top:-5px;}}
-		&.nav__tur{width: 143px;i{@include sized-sprite($icons, nav__tur);top:-3px;}}
-		&.nav__foo{width: 108px;i{@include sized-sprite($icons, nav__foo);top:-3px;margin:0 9px 0 6px}}
-		&.nav__goo{width: 174px - 20px;i{@include sized-sprite($icons, nav__goo);top:-3px;}}
-		&.nav__new{width: 168px + 20px;i{@include sized-sprite($icons, nav__new);top:-4px;}}
+		&.nav__all{width: 160px;i{@include sized-sprite($icons1, nav__all);top:-2px;}}
+		&.nav__bea{width: 148px;i{@include sized-sprite($icons1, nav__bea);top:-5px;}}
+		&.nav__tur{width: 143px;i{@include sized-sprite($icons1, nav__tur);top:-3px;}}
+		&.nav__foo{width: 108px;i{@include sized-sprite($icons1, nav__foo);top:-3px;margin:0 9px 0 6px}}
+		&.nav__goo{width: 174px - 20px;i{@include sized-sprite($icons1, nav__goo);top:-3px;}}
+		&.nav__new{width: 168px + 20px;i{@include sized-sprite($icons1, nav__new);top:-4px;}}
 		&:before{
 			content:' ';
 			position: absolute;
 			right: 0;
 			top: 1px;
-			@include sized-sprite($icons, nav_sep);
+			@include sized-sprite($icons1, nav_sep);
 		}
 		&:last-child:before{
 			display: none;

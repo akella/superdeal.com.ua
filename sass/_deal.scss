@@ -667,6 +667,7 @@
 			width: 80px;
 			display: inline-block;
 			width: auto;
+			text-decoration: none;
 			&:before{
 				border: none;
 				
@@ -679,9 +680,9 @@
 				right: 0px;
 				top: 0px;
 				left: 0;
-				.lteie8{
-					text-decoration: line-through;
-				}
+// 				.lteie8{
+// 					text-decoration: line-through;
+// 				}
 			}
 			&.price__old_none{
 				&:before,:after{display: none;}

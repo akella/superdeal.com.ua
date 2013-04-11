@@ -268,7 +268,7 @@
 	}
 	@each $s in visa, privat, bank, terminal, interkassa, webmoney, liqpay{
 		.payment__#{$s} .payment__icon{
-			@include sized-sprite($icons, c-#{$s});
+			@include sized-sprite($icons1, c-#{$s});
 		}
 	}
 	//alternative view
@@ -323,7 +323,7 @@
 		}
 		@each $s in visa, privat, bank, terminal, interkassa, webmoney, liqpay,sms{
 			.payment__#{$s} .payment__icon{
-				@include sized-sprite($icons, c1-#{$s});
+				@include sized-sprite($icons1, c1-#{$s});
 			}
 		}
 		.payment__bonuses{

@@ -105,9 +105,9 @@ html, body {
 			@each $social in fb, vk, gp, rss{
 				&.social__#{$social}{
 					vertical-align: middle;
-					@include sized-sprite($icons, f-#{$social});
-					&:hover{@include sized-sprite($icons, f-#{$social}_hover);}
-					&:active{@include sized-sprite($icons, f-#{$social}_active);}
+					@include sized-sprite($icons1, f-#{$social});
+					&:hover{@include sized-sprite($icons1, f-#{$social}_hover);}
+					&:active{@include sized-sprite($icons1, f-#{$social}_active);}
 				}
 			}
 		}
@@ -163,9 +163,9 @@ html, body {
 					position: relative;
 				}
 			}
-			.footer__help i{@include sized-sprite($icons, fhelp);}
-			.footer__contacts i{@include sized-sprite($icons, fcontacts);top: -2px;}
-			.footer__blog i{@include sized-sprite($icons, fblog);}
+			.footer__help i{@include sized-sprite($icons1, fhelp);}
+			.footer__contacts i{@include sized-sprite($icons1, fcontacts);top: -2px;}
+			.footer__blog i{@include sized-sprite($icons1, fblog);}
 		}
 	}
 }

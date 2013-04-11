@@ -134,7 +134,10 @@
 			content: "";
 			top: -28px;
 			left: -17px;
-			@include sized-sprite($icons, gift);
+			//@include sized-sprite($icons, gift);
+			background: url(../img/gift.png) no-repeat 0 0;
+			width: 195px;
+			height: 228px;
 		}
 	}
 		.gift__title{

@@ -108,35 +108,12 @@
 		.lteie8 &{
 			float: left;
 		}
-		&.socials__fb{
-			@include sized-sprite($icons, s_fb);
-			&:hover{@include sized-sprite($icons, s_fbh);}
-			&:active{@include sized-sprite($icons, s_fba);}
-		}
-		&.socials__gp{
-			@include sized-sprite($icons, s_gp);
-			&:hover{@include sized-sprite($icons, s_gph);}
-			&:active{@include sized-sprite($icons, s_gpa);}
-		}
-		&.socials__tw{
-			@include sized-sprite($icons, s_tw);
-			&:hover{@include sized-sprite($icons, s_twh);}
-			&:active{@include sized-sprite($icons, s_twa);}
-		}
-		&.socials__vk{
-			@include sized-sprite($icons, s_vk);
-			&:hover{@include sized-sprite($icons, s_vkh);}
-			&:active{@include sized-sprite($icons, s_vka);}
-		}
-		&.socials__ya{
-			@include sized-sprite($icons, s_ya);
-			&:hover{@include sized-sprite($icons, s_yah);}
-			&:active{@include sized-sprite($icons, s_yaa);}
-		}
-		&.socials__od{
-			@include sized-sprite($icons, s_od);
-			&:hover{@include sized-sprite($icons, s_odh);}
-			&:active{@include sized-sprite($icons, s_oda);}
+		@each $s in fb, gp, tw, vk, ya, od{
+			&.socials__#{$s}{
+				@include sized-sprite($icons1, s_#{$s});
+				&:hover{@include sized-sprite($icons1, s_#{$s}h);}
+				&:active{@include sized-sprite($icons1, s_#{$s}a);}
+			}
 		}
 	}
 }
