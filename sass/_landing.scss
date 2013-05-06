@@ -1,5 +1,17 @@
 @import "base";
-
+.is-fauxbg{
+	background: none;
+}
+.fauxbg{
+	position: fixed;
+	top: 0;
+	bottom: 68px;
+	left: 0;
+	right: 0;
+	@include background-size(cover);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
 .is-landing{
 	.location{
 		position: relative;
@@ -46,6 +58,12 @@
 			@extend %site;
 			position: relative;
 			height: 100%;
+		}
+	}
+	&.is-fauxbg{
+		.landing{
+			top: 0;
+			margin-top: 0;
 		}
 	}
 
