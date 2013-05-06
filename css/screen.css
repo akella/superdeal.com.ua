@@ -430,6 +430,7 @@ html, body { height: 100%; }
 .location .location__content:after, .footer .footer__wrap:after, .l:after, .offers:after, .megasocials:after, .deal:after, .deal .deal__prices:after, .deal .deal__timeleftwrap:after, .deal .deal__size:after, .deal .deal__wrap:after, .deal .deal__buttons:after, .gallery:after, .place:after, .contactform:after, .payment:after, .balance .balance__count:after, .coupon:after, .coupon .coupon__meta:after { clear: both; }
 
 .deal { margin-bottom: 23px; position: relative; padding: 19px; }
+.deal.is-loading { opacity: 0.5; }
 .deal .deal__left { float: left; width: 460px; padding-right: 22px; border-right: 1px dotted #b5d0e2; }
 .deal .deal__right { width: 360px; float: right; }
 .deal .deal__title { font-size: 24px; color: #333; font-weight: bold; line-height: 1.2; margin-bottom: 12px; }
@@ -1004,7 +1005,7 @@ input[type=radio] { border: none !important; padding: 0 !important; }
 .is-landing .nav, .is-landing .dealinfo .dealinfo__nav, .dealinfo .is-landing .dealinfo__nav, .is-landing .nav_user { position: absolute; bottom: 36px; left: 20px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
 .is-landing .header { position: absolute; width: 100%; z-index: 100; top: 50px; margin: 0; top: 71px; }
 .is-landing .invite-friend { border: 1px solid rgba(255, 255, 255, 0.5); text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3); }
-.is-landing .landing { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 780px; height: 672px; margin-top: -50px; border-bottom: 1px solid #c5c5c5; box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59); position: relative; z-index: 5; width: 100%; overflow: hidden; }
+.is-landing .landing { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 780px; height: 672px; margin-top: -18px; border-bottom: 1px solid #c5c5c5; box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59); position: relative; z-index: 5; top: 20px; width: 100%; overflow: hidden; }
 .is-landing .landing .landing__inner { position: relative; height: 100%; }
 .is-landing .landing_alt { height: 700px; margin-top: 0; }
 .is-landing .landing_alt .current-actions { top: 605px; }

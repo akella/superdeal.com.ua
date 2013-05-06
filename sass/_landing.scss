@@ -33,13 +33,15 @@
 		background-position: 50% 50%;
 		height: 780px;
 		height: 672px;
-		margin-top: -50px;
+		margin-top: -18px;
 		border-bottom: 1px solid #c5c5c5;
 		box-shadow: 1px 1px 3px rgba(197, 197, 197, 0.59);
 		position: relative;
 		z-index: 5;
+		top: 20px;
 		width: 100%;
 		overflow: hidden;
+
 		.landing__inner{
 			@extend %site;
 			position: relative;

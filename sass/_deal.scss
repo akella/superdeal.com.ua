@@ -8,6 +8,9 @@
 	.deal__discount{
 		@extend %discount;
 	}
+	&.is-loading{
+		opacity: 0.5;
+	}
 	.deal__left{
 		float: left;
 		width: 482px - 22px;
